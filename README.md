@@ -2,19 +2,8 @@
 
 # What is the best betting strategy for betting on premier league games
 
-# Music Industry Investigation
-
-**AUTHOR:** Matthew Thoomkuzhy
-
-**CANDIDATE NUMBER: 50798** 
+**AUTHOR:** Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
-**\#TODO:**
 
-
-- [x] **An Image representing the project**
-
-![alt text](data/Projectlogo.jpg)
-(Generated Using Chatgpt)
----
 
 - [x] **Brief description of repository**
