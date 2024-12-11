@@ -2,9 +2,18 @@
 
 # What is the Best Betting Strategy for the English Premier League?
 
-**AUTHORS:** Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
+**Authors:** Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
 ![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
 *Source: OpenAI*
 
-- [x] **Brief description of repository**
+## Project Overview
+
+
+## Technical Implementation
+
+
+## Work Distribution
+
+
+## Risks, Mitigants and Backup Plans
