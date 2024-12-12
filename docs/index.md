@@ -34,7 +34,7 @@ sport	event_id	event_name	bookie_team1	bookie_team2	bookie_draw	odds_team1	odds_
 
 ## Technical Implementation
 
-##### Research Goals
+### Research Goals
 The purpose of this project is to investigate different betting strategies, in order of increasing complexity:
 - Betting on Win/Lose/Draws
   - Betting on the Favourite (Lower Odds)
@@ -44,25 +44,30 @@ The purpose of this project is to investigate different betting strategies, in o
 - Biased Arbitrage
 - Positive Expected Value (EV) Betting
 
-##### Target Visualisations
+### Target Visualisations
+- Line Charts
+- Heatmaps
 
+### Mock Data
+| sport | event_id        | event_name               | bookie_team1 | bookie_team2 | bookie_draw | odds_team1 | odds_team2 | odds_draw | arbitrage_profit_margin | commence_time               |
+|-------|-----------------|--------------------------|--------------|--------------|-------------|------------|------------|-----------|-------------------------|-----------------------------|
+| 30    | soccer_spl      | 1b4b38cffca35329314cee0e01c22f26 | St Mirren vs Motherwell | Coral        | Betfair      | Betfair     | 2.00       | 4.70       | 3.55      | 0.554390                | 2024-12-07 15:00:00+00:00 |
 
-##### Data Collection and Aggregation
-As mentioned in the Project Overview, the historical odds and match results will be collected from the Odds API and a supplementary dataset from Kaggle. This is because the historical odds data from Odds API does not contain the match results to analyse the profitability of our strategy.
+INSERT EPL ODDS CSV FILE FORMAT
 
+### Data Aggregation
 In line with the course's coding philosophy, we have decided to create our very own `fixture_id` so that the historical odds and results can be merged efficiently. 
 
 The format will be as such:
 `XXXYYYddmmyy`, where `XXX` and `YYY` are the 3-letter abbreviations of the home and away teams respectively. `ddmmyy` is the date of the match itself. This ensures that each match has a unique `fixture_id` and the data can be merged accurately.
 
-##### Mock Data
-| sport | event_id        | event_name               | bookie_team1 | bookie_team2 | bookie_draw | odds_team1 | odds_team2 | odds_draw | arbitrage_profit_margin | commence_time               |
-|-------|-----------------|--------------------------|--------------|--------------|-------------|------------|------------|-----------|-------------------------|-----------------------------|
-| 30    | soccer_spl      | 1b4b38cffca35329314cee0e01c22f26 | St Mirren vs Motherwell | Coral        | Betfair      | Betfair     | 2.00       | 4.70       | 3.55      | 0.554390                | 2024-12-07 15:00:00+00:00 |
-
-
+The two dataframes will then be stored in an SQLite Database which feeds into the individual analyses for each of the strategies.
 
 ## Work Distribution
-
+NB-01: Data Collection (All Members)
+NB-02: Data Processing (All Members)
+NB-03: Analysis of Simple Win/Lose/Draw Strategies (Leo)
+NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies (Matthew)
+NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ## Risks, Mitigants and Backup Plans
