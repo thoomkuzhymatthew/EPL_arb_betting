@@ -26,7 +26,7 @@ We will then be using this function to backtest diffrerent strategies and track 
 our project chronology:
 
 
-![alt text](chronology.png)
+![chronology](chronology.png)
 
 ## Technical Implementation
 
