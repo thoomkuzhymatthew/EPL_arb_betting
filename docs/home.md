@@ -13,10 +13,12 @@
 
 To do this we want to create a function which backtests different betting strategies on a Sample of historic premier league games.
 
+We will then be using this function to backtest diffrerent strategies and track the returns of 100 pounds 
 
 
 
-In order to do this, we need to collect 2 pieces of data:
+
+**In order to do this, we need to collect 2 pieces of data:** 
 
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
 2. Fixture outcomes for all premier league games for the past 5 seasons, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
