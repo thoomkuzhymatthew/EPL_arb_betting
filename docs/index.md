@@ -33,6 +33,15 @@ sport	event_id	event_name	bookie_team1	bookie_team2	bookie_draw	odds_team1	odds_
 
 
 ## Technical Implementation
+The purpose of this project is to investigate different betting strategies, in order of increasing complexity:
+- Betting on Win/Lose/Draws
+  - Betting on the Favourite (Lower Odds)
+  - Betting on the Underdog (Higher Odds)
+  - Betting on the Draw
+- Arbitrage
+- Biased Arbitrage
+- Positive Expected Value (EV) Betting 
+
 
 
 ## Work Distribution
