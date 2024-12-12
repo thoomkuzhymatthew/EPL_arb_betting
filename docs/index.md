@@ -26,7 +26,7 @@ We will then be using this function to backtest diffrerent strategies and track 
 our project chronology:
 
 
-![chronology](chron.jpg)
+![chronology](../../chron.jpg)
 
 ## Technical Implementation
 
