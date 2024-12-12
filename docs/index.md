@@ -26,8 +26,7 @@ We will then be using this function to backtest diffrerent strategies and track 
 our project chronology:
 
 
-<img width="551" alt="image" src="https://github.com/user-attachments/assets/666eb0ec-dff8-43d9-88fb-dd447f6f4e88" />
-
+![alt text]()
 
 ## Technical Implementation
 
