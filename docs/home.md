@@ -18,10 +18,11 @@ To do this we want to create a function which backtests different betting strate
 
 In order to do this, we need to collect 2 pieces of data:
 
-1. Historical odds data for premier league games for the past 10 years, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
-2. Fixture outcomes for all premier league games for the past 10 years, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
+1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
+2. Fixture outcomes for all premier league games for the past 5 seasons, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
-our project timeline:
+our project chronology:
+
 
 ## Technical Implementation
 
