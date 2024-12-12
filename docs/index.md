@@ -25,8 +25,8 @@ We will then be using this function to backtest diffrerent strategies and track 
 
 our project chronology:
 
+![chron](https://github.com/user-attachments/assets/3bf9b4bd-188f-4a70-9a60-4df0c13747cc)
 
-![chronology](../../chron.jpg)
 
 ## Technical Implementation
 
