@@ -33,6 +33,8 @@ sport	event_id	event_name	bookie_team1	bookie_team2	bookie_draw	odds_team1	odds_
 
 
 ## Technical Implementation
+
+##### Research Goals
 The purpose of this project is to investigate different betting strategies, in order of increasing complexity:
 - Betting on Win/Lose/Draws
   - Betting on the Favourite (Lower Odds)
@@ -42,6 +44,13 @@ The purpose of this project is to investigate different betting strategies, in o
 - Biased Arbitrage
 - Positive Expected Value (EV) Betting 
 
+##### Data Collection and Aggregation
+As mentioned in the Project Overview, the historical odds and match results will be collected from the Odds API and a supplementary dataset from Kaggle. This is because the historical odds data from Odds API does not contain the match results to analyse the profitability of our strategy.
+
+In line with the course's coding philosophy, we have decided to create our very own `fixture_id` so that the historical odds and results can be merged efficiently. 
+
+The format will be as such:
+`XXXYYYddmmyy`, where `XXX` and `YYY` are the 3-letter abbreviations of the home and away teams respectively. `ddmmyy` is the date of the match itself. This ensures that each match has a unique `fixture_id` and the data can be merged accurately.
 
 
 ## Work Distribution
