@@ -22,6 +22,8 @@ In order to do this, we need to collect 2 pieces of data:
 2. Fixture outcomes for all premier league games for the past 5 seasons, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
 our project chronology:
+
+
 <img width="551" alt="image" src="https://github.com/user-attachments/assets/666eb0ec-dff8-43d9-88fb-dd447f6f4e88" />
 
 
