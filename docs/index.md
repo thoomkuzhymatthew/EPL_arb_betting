@@ -28,6 +28,9 @@ We will then be using this function to backtest diffrerent strategies and track 
 ![chron](https://github.com/user-attachments/assets/3bf9b4bd-188f-4a70-9a60-4df0c13747cc)
 ---
 
+sport	event_id	event_name	bookie_team1	bookie_team2	bookie_draw	odds_team1	odds_team2	odds_draw	arbitrage_profit_margin	commence_time
+30	soccer_spl	1b4b38cffca35329314cee0e01c22f26	St Mirren vs Motherwell	Coral	Betfair	Betfair	2.00	4.70	3.55	0.554390	2024-12-07 15:00:00+00:00
+
 
 ## Technical Implementation
 
