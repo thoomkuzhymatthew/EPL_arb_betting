@@ -49,11 +49,18 @@ The purpose of this project is to investigate different betting strategies, in o
 - Heatmaps
 
 ### Mock Data
+
+Historical Odds Data
 | sport | event_id        | event_name               | bookie_team1 | bookie_team2 | bookie_draw | odds_team1 | odds_team2 | odds_draw | arbitrage_profit_margin | commence_time               |
 |-------|-----------------|--------------------------|--------------|--------------|-------------|------------|------------|-----------|-------------------------|-----------------------------|
 | 30    | soccer_spl      | 1b4b38cffca35329314cee0e01c22f26 | St Mirren vs Motherwell | Coral        | Betfair      | Betfair     | 2.00       | 4.70       | 3.55      | 0.554390                | 2024-12-07 15:00:00+00:00 |
 
-INSERT EPL ODDS CSV FILE FORMAT
+Historical Match Data
+| Div | Date       | Time  | HomeTeam   | AwayTeam | FTHG | FTAG | FTR |
+|-----|------------|-------|------------|----------|------|------|-----|
+| E0  | 16/08/2024 | 20:00 | Man United | Fulham   | 1    | 0    | H   |
+
+Here we can see that `FTR` stands for the full-time result, and *H* means that the home team had won.
 
 ### Data Aggregation
 In line with the course's coding philosophy, we have decided to create our very own `fixture_id` so that the historical odds and results can be merged efficiently. 
@@ -64,10 +71,15 @@ The format will be as such:
 The two dataframes will then be stored in an SQLite Database which feeds into the individual analyses for each of the strategies.
 
 ## Work Distribution
+
 NB-01: Data Collection (All Members)
+
 NB-02: Data Processing (All Members)
+
 NB-03: Analysis of Simple Win/Lose/Draw Strategies (Leo)
+
 NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies (Matthew)
+
 NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ## Risks, Mitigants and Backup Plans
