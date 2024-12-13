@@ -14,7 +14,7 @@
 
 To do this we want to create a function which backtests different betting strategies on a Sample of historic premier league games.
 
-We will then be using this function to backtest different strategies and track the returns of 100 pounds 
+We will then be using this function to backtest different strategies and track the returns of 100 virtual pounds 
 
 
 
