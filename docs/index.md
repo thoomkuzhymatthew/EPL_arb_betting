@@ -5,7 +5,7 @@
 ##### **Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi
 ##### **Research Question:** What is the Best Betting Strategy for English Premier League games?
 ---
-![projectimage](harrymaguire.webp)
+<img src="harrymaguire.webp" alt="Description" width="300" height="300"/>
 *Source: OpenAI*
 
 ## Project Overview
