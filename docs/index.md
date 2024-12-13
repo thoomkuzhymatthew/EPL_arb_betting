@@ -154,15 +154,14 @@ These data will be read back into the subsequent notebooks and merged based on t
 
 ## Work Distribution 🫵🏻
 
-NB-01: Data Collection (All Members)
+| Notebook                                                   | Member(s) in Charge | Deadline     |
+|------------------------------------------------------------|--------------------|--------------|
+| NB-01: Data Collection                                     | All Members        | End-2024          |
+| NB-02: Data Processing                                     | All Members        | 15 January 2025         |
+| NB-03: Analysis of Simple Win/Lose/Draw Strategies          | Xinyan             | 29 January 2025          |
+| NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies| Matthew            | 29 January 2025          |
+| NB-05: Analysis of Positive Expected Value Strategy         | Noah               | 29 January 2025          |
 
-NB-02: Data Processing (All Members)
-
-NB-03: Analysis of Simple Win/Lose/Draw Strategies (Xinyan)
-
-NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies (Matthew)
-
-NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ## Risks, Mitigants and Backup Plans 📈
 
