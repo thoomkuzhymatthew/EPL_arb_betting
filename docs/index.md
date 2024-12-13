@@ -82,12 +82,45 @@ Historical Match Data
 Here we can see that `FTR` stands for the full-time result, and *H* means that the home team had won.
 
 ### Data Aggregation
-In line with the course's coding philosophy, we have decided to create our very own `fixture_id` so that the historical odds and results can be merged efficiently. 
+In line with the course's coding philosophy, we have decided to create our very own `fixture_id` to serve as the `FOREIGN KEY` so that the historical odds and results can be merged efficiently. 
 
 The format will be as such:
 `XXXYYYddmmyy`, where `XXX` and `YYY` are the 3-letter abbreviations of the home and away teams respectively. `ddmmyy` is the date of the match itself. This ensures that each match has a unique `fixture_id` and the data can be merged accurately.
 
-The two dataframes will then be stored in an SQLite Database which feeds into the individual analyses for each of the strategies.
+For instance, a match between Manchester United (Home) and Manchester City (Away) on 13 December 2024 will be `MUNMCI131224`.
+
+To achieve this, we will first create a dictionary containing all the abbreviations of the EPL teams and map the respective `Home_Team` and `Away_Team` columns to them.
+```bash
+team_abbr = {
+    "Manchester United": "MUN",
+    "Manchester City": "MCI",
+    # ... and so on for all EPL teams
+}
+
+df['home_abbr'] = df['Home_Team'].map(team_abbr)
+df['away_abbr'] = df['Away_Team'].map(team_abbr)
+```
+
+Then, we will format the date of the match into the desired format:
+```bash
+df['Date'] = pd.to_datetime(df['Date'])  
+df['DDMMYY'] = df['Date'].dt.strftime('%d%m%y')
+```
+
+Lastly, we concatenate all the strings to form a unique `fixture_id`:
+```bash
+df['fixture_id'] = df['home_abbr'] + df['away_abbr'] + df['DDMMYY']
+```
+
+### Data Storage
+These two Dataframes will be stored as tables in our SQLite database. 
+
+The `PRIMARY KEY` will be the `event_id` assigned to every EPL match we have collected from the Odds API.
+
+The `FOREIGN KEY` will be our own `fixture_id` that we have constructed above.
+
+### Data Visualisation
+These data will be read back into the subsequent notebooks and merged based on the `FOREIGN KEY`. Each notebook (NB-03, NB-04, NB-05) focuses on analysing different betting strategies, and will start with a fresh merged Dataframe to avoid inconsistencies.
 
 ## Work Distribution
 
@@ -117,5 +150,3 @@ NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ### Backup Plans:
 If access to the APIs fails, we will source alternative datasets, such as publicly available odds and results archives. For merging issues, we will manually validate a subset of the data to ensure the system works before scaling. If time becomes a constraint, we will prioritize simpler strategies like betting on favorites or underdogs to deliver meaningful insights within the timeline.
-
----
