@@ -5,7 +5,7 @@
 ##### **Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi
 ##### **Research Question:** What is the Best Betting Strategy for English Premier League games?
 ---
-<img src="harrymaguire.webp" alt="Description" width="300" height="300"/>
+<img src="harrymaguire.webp" alt="Description" width="500" height="300"/>
 *Source: OpenAI*
 
 ## Project Overview
@@ -14,15 +14,12 @@
 
 To do this we want to create a function which backtests different betting strategies on a Sample of historic premier league games. It will have a range of parameters e.g. stake limits, strategy type, start and end dates. 
 
-We will then be using this function to backtest different strategies and track the returns of 100 virtual pounds 
-
-
-
+We will then be using this function to backtest different strategies and track the returns of 100 virtual pounds. 
 
 **In order to do this, we need to collect 2 pieces of data:** 
 
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
-2. Fixture outcomes for all premier league games for the past 5 seasons, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
+2. Fixture outcomes for all premier league games for the past 5 seasons, can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
 ### Project Plan
 ![project_plan](./project_plan.png)
