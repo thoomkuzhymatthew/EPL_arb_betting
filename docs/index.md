@@ -70,15 +70,18 @@ The purpose of this project is to investigate different betting strategies, in o
 ### Mock Data
 
 Historical Odds Data
+```
 | sport | event_id        | event_name               | bookie_team1 | bookie_team2 | bookie_draw | odds_team1 | odds_team2 | odds_draw | arbitrage_profit_margin | commence_time               |
 |-------|-----------------|--------------------------|--------------|--------------|-------------|------------|------------|-----------|-------------------------|-----------------------------|
 | soccer_spl    | 1b4b38cffca35329314cee0e01c22f26      | St Mirren vs Motherwell | Coral | Betfair        | Betfair      |   2.00   | 4.70        |  3.55        | 0.554390      | 2024-12-07 15:00:00+00:00               | 2024-12-07 15:00:00+00:00 |
+```
 
 Historical Match Data
+```
 | Div | Date       | Time  | HomeTeam   | AwayTeam | FTHG | FTAG | FTR |
 |-----|------------|-------|------------|----------|------|------|-----|
 | E0  | 16/08/2024 | 20:00 | Man United | Fulham   | 1    | 0    | H   |
-
+```
 Here we can see that `FTR` stands for the full-time result, and *H* means that the home team had won.
 
 ### Data Aggregation
