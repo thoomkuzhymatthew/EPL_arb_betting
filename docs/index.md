@@ -72,7 +72,7 @@ The purpose of this project is to investigate different betting strategies, in o
 Historical Odds Data
 | sport | event_id        | event_name               | bookie_team1 | bookie_team2 | bookie_draw | odds_team1 | odds_team2 | odds_draw | arbitrage_profit_margin | commence_time               |
 |-------|-----------------|--------------------------|--------------|--------------|-------------|------------|------------|-----------|-------------------------|-----------------------------|
-| 30    | soccer_spl      | 1b4b38cffca35329314cee0e01c22f26 | St Mirren vs Motherwell | Coral        | Betfair      | Betfair     | 2.00       | 4.70       | 3.55      | 0.554390                | 2024-12-07 15:00:00+00:00 |
+| soccer_spl    | 1b4b38cffca35329314cee0e01c22f26      | St Mirren vs Motherwell | Coral | Betfair        | Betfair      |   2.00   | 4.70        |  3.55        | 0.554390      | 2024-12-07 15:00:00+00:00               | 2024-12-07 15:00:00+00:00 |
 
 Historical Match Data
 | Div | Date       | Time  | HomeTeam   | AwayTeam | FTHG | FTAG | FTR |
