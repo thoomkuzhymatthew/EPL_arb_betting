@@ -71,3 +71,20 @@ NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies (Matthew)
 NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ## Risks, Mitigants and Backup Plans
+
+### Risks:
+
+1. **API Data Limitations**: The Odds API or Premier League data source may have rate limits, missing data, or restricted access, which could prevent complete data collection.
+2. **Merging Dataset Error**: Issues with our custom `fixture_id` system may lead to incorrect merging of odds and match outcomes, skewing the analysis results.
+3. **Strategy Biases**: Betting strategies may perform well on historical data but fail to generalize due to market inefficiencies or changes in team dynamics.
+
+### Mitigants:
+
+1. We will test the APIs early to understand their limitations and, if necessary, pre-download data to mitigate rate limits or access restrictions.
+2. Our custom `fixture_id` will undergo rigorous testing with sample datasets to ensure accuracy before full-scale implementation.
+3. We will evaluate strategies under realistic assumptions, such as fluctuating odds, betting limits, and varying market conditions, to reduce reliance on idealized results.
+
+### Backup Plans:
+If access to the APIs fails, we will source alternative datasets, such as publicly available odds and results archives. For merging issues, we will manually validate a subset of the data to ensure the system works before scaling. If time becomes a constraint, we will prioritize simpler strategies like betting on favorites or underdogs to deliver meaningful insights within the timeline.
+
+---
