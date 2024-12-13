@@ -31,6 +31,7 @@ We will then be using this function to backtest different strategies and track t
 ---
 
 ### Repository Structure
+```bash
 .
 ├─ README.md
 ├─ .gitignore
@@ -50,6 +51,7 @@ We will then be using this function to backtest different strategies and track t
    └─ visualisations
       ├─ example_plot.png
       └─ example_dashboard.html
+```
 
 ## Technical Implementation
 
