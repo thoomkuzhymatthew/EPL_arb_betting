@@ -24,6 +24,11 @@ We will then be using this function to backtest different strategies and track t
 ### API Plan
 ![api_plan](api_plan.png)
 
+Reasons Why We Like Odds API:
+1. Access to Real-Time and Historical Odds
+2. Offers Odds from Various Bookmakers to Better Investigate Arbitrage Opportunities
+3. Data Reliability and Authenticity
+
 ### Project Plan
 ![project_plan](project_plan.png)
 ---
