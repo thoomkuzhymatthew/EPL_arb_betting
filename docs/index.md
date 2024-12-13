@@ -1,8 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_SwzfpU1)
 
-# What is the Best Betting Strategy for English Premier League games?
+# Wanna Outsmart the Bookies This EPL Season? Aight, Bet!
 
-**Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi 
+**Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi
+**Research Question:** What is the Best Betting Strategy for English Premier League games?
 ---
 ![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
 *Source: OpenAI*
