@@ -21,7 +21,7 @@ We will then be using this function to backtest different strategies and track t
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
 2. Fixture outcomes for all premier league games for the past 5 seasons, can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
-### Project Plan
+### Project Plan 📋
 ![project_plan](project_plan.png)
 ---
 
@@ -48,7 +48,7 @@ We will then be using this function to backtest different strategies and track t
       └─ plot2.png
 ```
 
-## Technical Implementation
+## Technical Implementation 💻
 
 ### Research Goals
 The purpose of this project is to investigate different betting strategies, in order of increasing complexity:
@@ -147,7 +147,7 @@ The `FOREIGN KEY` will be our own `fixture_id` that we have constructed above.
 ### Data Visualisation
 These data will be read back into the subsequent notebooks and merged based on the `FOREIGN KEY`. Each notebook (NB-03, NB-04, NB-05) focuses on analysing different betting strategies, and will start with a fresh merged Dataframe to avoid inconsistencies.
 
-## Work Distribution
+## Work Distribution 🫵🏻
 
 NB-01: Data Collection (All Members)
 
@@ -159,7 +159,7 @@ NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies (Matthew)
 
 NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
-## Risks, Mitigants and Backup Plans
+## Risks, Mitigants and Backup Plans 📈
 
 ### Risks:
 
