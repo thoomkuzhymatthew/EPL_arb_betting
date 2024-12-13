@@ -24,7 +24,7 @@ We will then be using this function to backtest different strategies and track t
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
 2. Fixture outcomes for all premier league games for the past 5 seasons, this can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
-*Project Plan*
+### Project Plan
 ![project_plan](./project_plan.png)
 ---
 ![chron](https://github.com/user-attachments/assets/3bf9b4bd-188f-4a70-9a60-4df0c13747cc)
