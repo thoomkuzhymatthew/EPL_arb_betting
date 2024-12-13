@@ -161,6 +161,8 @@ NB-05: Analysis of Positive Expected Value Strategy (Noah)
 
 ## Risks, Mitigants and Backup Plans 📈
 
+[**Link to Noah's recording:**](https://youtu.be/tscts_V9tIs)
+
 ### Risks:
 
 1. **API Data Limitations**: The Odds API or Premier League data source may have rate limits, missing data, or restricted access, which could prevent complete data collection.
