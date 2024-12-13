@@ -22,7 +22,7 @@ We will then be using this function to backtest different strategies and track t
 2. Fixture outcomes for all premier league games for the past 5 seasons, can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
 ### API Plan
-[api_plan](api_plan.png)
+![api_plan](api_plan.png)
 
 ### Project Plan
 ![project_plan](project_plan.png)
