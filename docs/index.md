@@ -2,7 +2,7 @@
 
 # Wanna Outsmart the Bookies This EPL Season? Aight, Bet!
 
-**Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi \n
+**Authors:** Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi /n
 **Research Question:** What is the Best Betting Strategy for English Premier League games?
 ---
 ![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
