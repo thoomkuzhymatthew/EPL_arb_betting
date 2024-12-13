@@ -14,7 +14,7 @@
 
 To do this we want to create a function which backtests different betting strategies on a Sample of historic premier league games. It will have a range of parameters e.g. stake limits, strategy type, start and end dates. 
 
-We will then be using this function to backtest different strategies and track the returns of 100 virtual pounds. 
+We will then be using this function to backtest different strategies and track the returns of £100. 
 
 **In order to do this, we need to collect 2 pieces of data:** 
 
@@ -64,8 +64,10 @@ The purpose of this project is to investigate different betting strategies, in o
 - Positive Expected Value (EV) Betting
 
 ### Target Visualisations
-- Line Charts
-- Heatmaps
+- Line Charts: To observe the growth in our virtual £100 over time across different strategies
+- Heatmaps:
+   - Visualise the prevalence of arbitrage opportunities across different bookmakers and seasons
+   - Visualise the profitability of various strategies across different teams and seasons
 
 ### Mock Data
 
