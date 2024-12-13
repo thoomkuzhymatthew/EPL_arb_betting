@@ -30,6 +30,26 @@ We will then be using this function to backtest different strategies and track t
 ![chron](https://github.com/user-attachments/assets/3bf9b4bd-188f-4a70-9a60-4df0c13747cc)
 ---
 
+### Repository Structure
+.
+├─ README.md
+├─ .gitignore
+├─ code
+│  ├─ NB-01.ipynb
+│  ├─ NB-02.ipynb
+│  ├─ NB-03.ipynb
+│  ├─ NB-04.ipynb
+│  ├─ NB-05.ipynb
+│  ├─ auth.py
+│  └─ functions.py
+└─ data
+   ├─ epl.db
+   ├─ raw
+   │  ├─ example_raw_data.json
+   │  └─ example_raw_data.csv
+   └─ visualisations
+      ├─ example_plot.png
+      └─ example_dashboard.html
 
 ## Technical Implementation
 
