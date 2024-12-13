@@ -8,7 +8,7 @@
 ![projectimage](harrymaguire.webp)
 *Source: OpenAI*
 
-## Project Overview
+## Project Overview 🗂
 
 **We want to figure out what the best betting strategy is for premier league games.**
 
