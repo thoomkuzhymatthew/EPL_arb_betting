@@ -2,7 +2,7 @@
 
 # What is the best betting strategy for betting on premier league games?
 
-**Authors:** Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
+Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
 ![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
 
