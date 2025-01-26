@@ -38,15 +38,13 @@ def process_row(row):
     })
 
 def get_implied_vs_actual(df, odds_column, bins, outcome_label):
-    
-    '''
+    """    
     Parameters:
     - df: pandas DataFrame containing the data.
-    - odds_column: column name for odds ('max_draw', 'max_home' or 'max_away').
-    - bins: bin edges for grouping odds (different for each outcome)
-    - outcome_label: outcome label to filter on (e.g., 'D', 'H', 'A').
-    '''
-    
+    - odds_column: str, column name for odds ('max_draw', 'max_home' or 'max_away').
+    - bins: list, bin edges for grouping odds.
+    - outcome_label: str, outcome label to filter on ('D', 'H' or 'A').
+    """
     # Calculate implied probabilities
     df['implied_prob'] = 1 / df[odds_column]
     
@@ -56,7 +54,7 @@ def get_implied_vs_actual(df, odds_column, bins, outcome_label):
     # Calculate actual probabilities
     actual_prob = (
         df.groupby('odds_bin')['FTR']
-        .apply(lambda x: (x == outcome_label).mean())  # Filter by outcome we want
+        .apply(lambda x: (x == outcome_label).mean())  # Filter by outcome
         .reset_index(name='actual_prob')
     )
     
@@ -67,8 +65,11 @@ def get_implied_vs_actual(df, odds_column, bins, outcome_label):
         .reset_index(name='implied_prob')
     )
     
-    # Merge and melt for plotting
+    # Merge actual and implied probabilities
     analysis = actual_prob.merge(implied_prob, on='odds_bin')
+    
+    # Prepare dataframe for plotting
+    analysis['odds_bin'] = analysis['odds_bin'].astype(str)
     analysis_melted = analysis.melt(
         id_vars='odds_bin',
         value_vars=['actual_prob', 'implied_prob'],
