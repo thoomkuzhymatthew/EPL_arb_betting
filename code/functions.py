@@ -36,3 +36,48 @@ def process_row(row):
         'max_draw': max_draw,
         'draw_bookmaker': draw_bookmaker
     })
+
+def get_implied_vs_actual(df, odds_column, bins, outcome_label):
+    
+    '''
+    Parameters:
+    - df: pandas DataFrame containing the data.
+    - odds_column: column name for odds ('max_draw', 'max_home' or 'max_away').
+    - bins: bin edges for grouping odds (different for each outcome)
+    - outcome_label: outcome label to filter on (e.g., 'D', 'H', 'A').
+    '''
+    
+    # Calculate implied probabilities
+    df['implied_probability'] = 1 / df[odds_column]
+    
+    # Bin the odds
+    df['odds_bin'] = pd.cut(df[odds_column], bins=bins, include_lowest=True)
+    
+    # Calculate actual probabilities
+    actual_prob = (
+        df.groupby('odds_bin')['FTR']
+        .apply(lambda x: (x == outcome_label).mean())  # Filter by outcome we want
+        .reset_index(name='actual_prob')
+    )
+    
+    # Calculate average implied probabilities for each bin
+    implied_prob = (
+        df.groupby('odds_bin')['implied_prob']
+        .mean()
+        .reset_index(name='implied_prob')
+    )
+    
+    # Merge and melt for plotting
+    analysis = actual_prob.merge(implied_prob, on='odds_bin')
+    analysis_melted = analysis.melt(
+        id_vars='odds_bin',
+        value_vars=['actual_prob', 'implied_prob'],
+        var_name='Type',
+        value_name='Probability'
+    )
+    analysis_melted['Type'] = analysis_melted['Type'].replace({
+        'actual_prob': 'Actual Probability',
+        'implied_prob': 'Implied Probability'
+    })
+    
+    return analysis_melted
