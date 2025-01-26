@@ -48,7 +48,7 @@ def get_implied_vs_actual(df, odds_column, bins, outcome_label):
     '''
     
     # Calculate implied probabilities
-    df['implied_probability'] = 1 / df[odds_column]
+    df['implied_prob'] = 1 / df[odds_column]
     
     # Bin the odds
     df['odds_bin'] = pd.cut(df[odds_column], bins=bins, include_lowest=True)
