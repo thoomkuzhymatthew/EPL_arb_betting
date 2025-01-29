@@ -82,3 +82,35 @@ def get_implied_vs_actual(df, odds_column, bins, outcome_label):
     })
     
     return analysis_melted
+
+
+
+import pandas as pd
+
+# function to get df from database w/ row discrepancies
+def process_odds_data(odds_df, results_df, process_row):
+    """
+    Merges odds and results DataFrames, applies the process_row function, and selects relevant columns.
+
+    Parameters:
+    - odds_df (pd.DataFrame): The DataFrame containing odds data.
+    - results_df (pd.DataFrame): The DataFrame containing match results.
+    - process_row (function): The function to apply row-wise.
+
+    Returns:
+    - pd.DataFrame: Processed DataFrame with best odds and respective bookmakers.
+    """
+
+    # Merge odds data with results on fixture_id
+    merged_df = odds_df.merge(results_df, on='fixture_id', how='inner')
+
+    # Apply the row-processing function
+    new_columns = merged_df.apply(process_row, axis=1)
+    merged_df = pd.concat([merged_df, new_columns], axis=1)
+
+    # Select only relevant columns
+    merged_df = merged_df[['fixture_id', 'Date', 'home_team', 'away_team', 'FTR', 
+                           'max_home', 'home_bookmaker', 'max_away', 'away_bookmaker', 
+                           'max_draw', 'draw_bookmaker']]
+    
+    return merged_df
