@@ -1,4 +1,13 @@
+from functions import process_row , process_odds_data # from functions.py
 import pandas as pd
+from sqlalchemy import create_engine
+from lets_plot import * 
+from lets_plot import ggsave
+from IPython.display import SVG
+import matplotlib.ticker as ticker
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
 # Function to Obtain Highest Odds and Bookmaker for Each Fixture-Outcome
 def process_row(row):
@@ -114,3 +123,6 @@ def process_odds_data(odds_df, results_df, process_row):
                            'max_draw', 'draw_bookmaker']]
     
     return merged_df
+
+
+
