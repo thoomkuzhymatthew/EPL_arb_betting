@@ -83,10 +83,6 @@ def get_implied_vs_actual(df, odds_column, bins, outcome_label):
     
     return analysis_melted
 
-
-
-import pandas as pd
-
 # function to get df from database w/ row discrepancies
 def process_odds_data(odds_df, results_df, process_row):
     """
