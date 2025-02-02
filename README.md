@@ -4,7 +4,7 @@
 
 Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
-![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
+![projectimage](projectimage.jpg)
 
 ## Project Overview 🗂
 
@@ -27,8 +27,6 @@ Reasons Why We Like Odds API:
 2. Offers Odds from Various Bookmakers to Better Investigate Arbitrage Opportunities
 3. Data Reliability and Authenticity
 
-### Project Plan
-![project_plan](project_plan.png)
 ---
 
 ### Repository Structure
@@ -69,15 +67,6 @@ The purpose of this project is to investigate different betting strategies, in o
 - Heatmaps:
    - Visualise the prevalence of arbitrage opportunities across different bookmakers and seasons
    - Visualise the profitability of various strategies across different teams and seasons
-
-## Work Distribution 🫵🏻
-
-| Notebook                                                   | Member(s) in Charge | Deadline     |
-|------------------------------------------------------------|--------------------|--------------|
-| NB-01: Data Collection                                     | All Members        | End-2024          |
-| NB-02: Data Processing                                     | All Members        | 15 January 2025         |
-| NB-03: Analysis of Simple Win/Lose/Draw Strategies          | Xinyan             | 29 January 2025          |
-| NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies| Matthew            | 29 January 2025          |
 
 ## 🛠️ How to Recreate This Project
 
