@@ -128,7 +128,7 @@ Execute `NB03 - Simple Betting Strategies.ipynb` to explore various basic bettin
 Run `NB04 - Arbitrage Betting Strategies.ipynb` to investigate both biased and unbiased arbitrage betting strategies and backtest them.  
 
 ## Acknowledgements  
-- **Data Source**: [The Odds API](https://the-odds-api.com/) for providing comprehensive sports betting data.  
+- **Data Source**: [The Odds API](https://the-odds-api.com/) for providing comprehensive sports betting data. ['Premier league datasset'](https://www.football-data.co.uk/englandm.php)  Fixture outcomes for all premier league games
 - **Libraries Used**: `requests`, `json`, `pandas`, `os`, `SQLAlchemy`, `datetime`, `python-dotenv`, `lets-plot`, `IPython`, `matplotlib`, `seaborn`, `numpy` for data processing, analysis, and visualization.  
 
 ---
