@@ -4,31 +4,52 @@
 
 Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
-![projectimage](https://github.com/user-attachments/assets/b2593057-fafc-4083-866d-2e828eb9d0df)
+![projectimage](projectimage.jpg)
 
+---
 ## Project Overview 🗂
 
 **We want to figure out what the best betting strategy is for premier league games.**
 
-To do this we want to create a function which backtests different betting strategies on a Sample of historic premier league games. It will have a range of parameters e.g. stake limits, strategy type, start and end dates. 
 
-We will then be using this function to backtest different strategies and track the returns of £100. 
+This project investigates the **profitability and sustainability** of betting strategies in the **English Premier League (EPL)** by backtesting historical match data. Our backtesting simulates the hypothetical growth of a **£1000 bankroll** across all matches in our dataset.  
 
+
+## Research Areas  
+
+We explore three main areas in our project:  
+
+### 1. Simple Directional Strategies  
+These involve placing bets based on an expected match outcome. To uncover potential **alpha**, we analyze **odds mispricing** in both home and away teams to inform our **discretionary strategies**.  
+
+We backtest **six directional strategies** in total:  
+- **Three simple strategies:** Betting on the **favorite, underdog, or draw**.  
+- **Three discretionary strategies:** Betting on **home favorites, home underdogs, and away underdogs**.  
+
+### 2. Arbitrage Strategies  
+These strategies exploit **pricing inefficiencies** across bookmakers to guarantee **risk-free returns**. We investigate whether certain games have **higher win probabilities**, allowing for potential **biased arbitrage opportunities**.  
+
+We backtest **four arbitrage strategies**:  
+- **One unbiased arbitrage strategy**  
+- **Three biased arbitrage strategies:** Favoring the **favorite, second-favorite, or underdog**.  
+
+### 3. Exploratory Data Analysis (EDA)  
+In preparation for backtesting, we conducted **extensive EDA** on betting trends in EPL matches, including:  
+- **Bookmakers offering the best odds**  
+- **Prevalence of arbitrage opportunities**  
+- **Win rates of various strategies**  
+
+These findings can be accessed in:  
+- 📂 **`/data/visualisations`**  
+- 📓 **`NB03-Simple_Betting_Strategies.ipynb`**  
+- 📓 **`NB04-arbitrage_betting_strategies.ipynb`**  
+
+---
 **In order to do this, we need to collect 2 pieces of data:** 
 
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
 2. Fixture outcomes for all premier league games for the past 5 seasons, can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
 
-### API Plan
-![api_plan](api_plan.png)
-
-Reasons Why We Like Odds API:
-1. Access to Real-Time and Historical Odds
-2. Offers Odds from Various Bookmakers to Better Investigate Arbitrage Opportunities
-3. Data Reliability and Authenticity
-
-### Project Plan
-![project_plan](project_plan.png)
 ---
 
 ### Repository Structure
@@ -52,32 +73,6 @@ Reasons Why We Like Odds API:
       ├─ arb_betting_strategies
       └─ simple_betting_strategies
 ```
-
-## Technical Implementation 💻
-
-### Research Goals
-The purpose of this project is to investigate different betting strategies, in order of increasing complexity:
-- Betting on Win/Lose/Draws
-  - Betting on the Favourite (Lower Odds)
-  - Betting on the Underdog (Higher Odds)
-  - Betting on the Draw
-- Arbitrage
-- Biased Arbitrage
-
-### Visualisations
-- Line Charts: To observe the growth in our virtual £100 over time across different strategies
-- Heatmaps:
-   - Visualise the prevalence of arbitrage opportunities across different bookmakers and seasons
-   - Visualise the profitability of various strategies across different teams and seasons
-
-## Work Distribution 🫵🏻
-
-| Notebook                                                   | Member(s) in Charge | Deadline     |
-|------------------------------------------------------------|--------------------|--------------|
-| NB-01: Data Collection                                     | All Members        | End-2024          |
-| NB-02: Data Processing                                     | All Members        | 15 January 2025         |
-| NB-03: Analysis of Simple Win/Lose/Draw Strategies          | Xinyan             | 29 January 2025          |
-| NB-04: Analysis of Arbitrage and Biased Arbitrage Strategies| Matthew            | 29 January 2025          |
 
 ## 🛠️ How to Recreate This Project
 
@@ -105,7 +100,19 @@ python -m venv .venv
 source .venv/bin/activate # If on macOS/Linux
 pip install -r requirements.txt
 ```
-### 3. Run the Code  
+
+### 3. API Plan
+
+![api_plan](api_plan.png)
+
+Reasons Why We Like Odds API:
+1. Access to Real-Time and Historical Odds
+2. Offers Odds from Various Bookmakers to Better Investigate Arbitrage Opportunities
+3. Data Reliability and Authenticity
+
+---
+
+### 4. Run the Code  
 
 #### Notebook 1: Data Collection  
 Navigate to the `code/` directory and open `NB01 - Data Collection.ipynb`.  
