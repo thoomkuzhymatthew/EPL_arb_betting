@@ -20,16 +20,21 @@ We will then be using this function to backtest different strategies and track t
 
 ## Results & Key Findings  
 
-### Away Odds Pricing  
+### Away Odds Pricings 
 - **Away odds are priced efficiently for favorites and fair matches**.  
 - **Significant deviations** occur when away teams are **underdogs**:  
   - **Slight Underdogs (30-40% win probability):** Actual win probability is **10% higher**.  
   - **Significant Underdogs (<20% win probability):** Actual win probability is **10% lower**.  
 
+![away_probabilities](away_probabilities.png)
+
+
 ### Home Odds Pricing  
 - **Home odds are mostly efficiently priced** but show some **home ground advantage**:  
   - **Slight Favourites (~57% win probability):** Actual win probability is **61%**.  
   - **Significant Underdogs (~20% win probability):** Actual win probability is **3-4% higher**.  
+
+![home_probabilities](home_probabilities.png)
 
 ### Arbitrage Opportunities  
 - **Arbitrage opportunities are more prevalent at the start of seasons** but have been declining over time.  
@@ -38,13 +43,19 @@ We will then be using this function to backtest different strategies and track t
   - There is a **weak favorite**.  
   - There is a **strong underdog**.  
 
+![arb_opportunities](arb_opportunities.png)
+
+
 ---
 
 ## Backtesting Results  
 
 - **Only betting on away underdogs** is **profitable in the long run** (see visualization).  
 - **All other strategies** eventually lead to **bankroll depletion**.  
+
+![bet_simulation](bet_simulation.png)
+
 - **Second-favorite biased arbitrage** yielded the **highest returns** among arbitrage strategies.  
 
-
+![arb_simulation](arb_simulation.png)
 ---
