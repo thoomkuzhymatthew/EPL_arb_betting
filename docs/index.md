@@ -1,50 +1,6 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/_SwzfpU1)
 
-<style>
-    body {
-        background-color: #0A1F44; /* Deep Navy Blue */
-        color: #EAEAEA; /* Soft White Text */
-        font-family: 'Arial', sans-serif; /* Professional Corporate Font */
-        line-height: 1.6;
-        text-align: center;
-    }
-
-    h1, h2, h3 {
-        color: #F5B041; /* Gold Accent for Prestige */
-    }
-
-    .button-container {
-        margin-top: 20px;
-    }
-
-    .nav-button {
-        display: inline-block;
-        padding: 12px 20px;
-        margin: 10px;
-        font-size: 18px;
-        font-weight: bold;
-        text-decoration: none;
-        color: #FFF;
-        background: linear-gradient(135deg, #1C3FAA, #0A1F44);
-        border: 2px solid #F5B041;
-        border-radius: 6px;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .nav-button:hover {
-        background: linear-gradient(135deg, #F5B041, #1C3FAA);
-        color: #0A1F44;
-    }
-
-    .content-box {
-        background: rgba(255, 255, 255, 0.1);
-        padding: 20px;
-        border-radius: 8px;
-        box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
-        margin: 20px auto;
-        width: 80%;
-    }
-</style>
+<link rel="stylesheet" type="text/css" href="style.css">
 
 # 🏆 Wanna Outsmart the Bookies This EPL Season? Aight, Bet!
 
