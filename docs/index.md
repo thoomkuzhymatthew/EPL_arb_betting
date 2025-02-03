@@ -59,3 +59,13 @@ We will then be using this function to backtest different strategies and track t
 
 ![arb_simulation](arb_simulation.png)
 ---
+
+
+---
+
+## Navigation
+- [Backtesting Results](backtesting-results.md)
+- [Exploratory Data Analysis](eda.md)  
+
+
+---
