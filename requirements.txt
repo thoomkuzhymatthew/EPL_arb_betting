@@ -10,3 +10,4 @@ IPython
 matplotlib
 seaborn
 numpy
+mkdocs
