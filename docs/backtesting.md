@@ -28,7 +28,7 @@ The following section shows the results of simulating simple betting strategies.
 - Betting on home underdogs
 - Betting on away underdogs
 
-<img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="900" height="600">
+<img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="750" height="500">
 
 
 ## **Performance Breakdown by Strategy**
@@ -102,7 +102,7 @@ The following section shows the results of simulating different arbitrage strate
 - Biased arbitrage betting towards the underdog (highest odds)
 - Custom arbitrage strategy for bias towards weak favourites and strong underdogs
 
-<img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
+<img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="750" height="500">
 
 ## **Performance Breakdown by Strategy**
 <table>
