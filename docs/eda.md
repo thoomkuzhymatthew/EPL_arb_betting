@@ -3,7 +3,7 @@ layout: default
 title: Exploratory Data Analysis (EDA)
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/style.css">
+<link rel="stylesheet" type="text/css" href="assets/styles.css">
 
 # 🔍 Exploratory Data Analysis (EDA)
 
