@@ -6,10 +6,10 @@ layout: default
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 <div class="header">
-    <a href="index.md">Home</a>
-    <a href="about.md">About</a>
-    <a href="eda.md">Exploratory Data Analysis</a>
-    <a href="backtesting.md">Backtesting</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="eda.html">Exploratory Data Analysis</a>
+    <a href="backtesting.html">Backtesting</a>
 </div>
 
 # Backtesting Results
