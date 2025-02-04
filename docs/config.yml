@@ -1,3 +1,4 @@
 theme: minima
 title: "Sports Betting Data Science Project"
 description: "Exploring arbitrage opportunities and betting strategies"
+include: ["assets"]
