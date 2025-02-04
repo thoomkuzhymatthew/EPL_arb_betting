@@ -1,6 +1,6 @@
 body {
-    background-color: #FFFFFF;
-    color: #010101;
+    background-color: #E6E6E6;
+    color: #454545;
     font-family: "Helvetica Neue", serif;
     line-height: 1.8;
     margin: 0;
@@ -10,7 +10,7 @@ body {
 }
 
 h1, h2, h3 {
-    color: #010101;
+    color: #454545;
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -19,14 +19,14 @@ h1, h2, h3 {
 }
 
 .header {
-    background-color: #021024;
+    background-color: #cfcfcf;
     padding: 15px;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .header a {
-    color: #010101;
+    color: #454545;
     padding: 15px 25px;
     text-decoration: none;
     font-size: 18px;
@@ -35,12 +35,12 @@ h1, h2, h3 {
 }
 
 .header a:hover {
-    background-color: #022D5A;
+    background-color: #8a8a8a;
     border-radius: 5px;
 }
 
 a {
-    color: #FFD700;
+    color: #454545;
     text-decoration: none;
     font-weight: bold;
 }
