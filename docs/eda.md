@@ -1,15 +1,37 @@
-# Exploratory Data Analysis (EDA)
+---
+layout: default
+title: Exploratory Data Analysis (EDA)
+---
 
-Our EDA examines betting odds, arbitrage opportunities, and patterns in sports betting.
+<link rel="stylesheet" type="text/css" href="assets/style.css">
 
-## Key Insights:
-- **Arbitrage frequency across bookmakers**
-- **Historical trends in betting odds**
-- **Risk-adjusted performance of different bet types**
+# 🔍 Exploratory Data Analysis (EDA)
 
-### Visualizations:
-- Heatmaps of arbitrage opportunities
-- Time series of odds fluctuations
-- Betting behavior analysis
+<div class="button-container">
+    <a href="index.md" class="nav-button">🏠 Home</a>
+    <a href="backtesting-results.md" class="nav-button">📊 Backtesting</a>
+    <a href="eda.md" class="nav-button">🔍 EDA</a>
+</div>
 
-## [Back to Home](index.md)
+---
+
+## **Overview of Betting Market Trends**
+<div class="content-box">
+EDA allows us to **identify inefficiencies** in betting odds and **understand arbitrage opportunities**.
+</div>
+
+## **Arbitrage Opportunities by Bookmaker**
+<div class="content-box">
+| Bookmaker    | % Arbitrage Events |
+|-------------|----------------|
+| **Bet365**  | 22.5%          |
+| **William Hill** | 19.3%      |
+| **Pinnacle** | 15.8%         |
+</div>
+
+## **Key Findings**
+<div class="content-box">
+- 📉 **Arbitrage opportunities are more frequent on underdog bets.**
+- 🏆 **Bet365 had the highest rate of pricing inefficiencies.**
+- 💡 **Certain timeframes (e.g., early market movements) had a higher arbitrage occurrence.**
+</div>
