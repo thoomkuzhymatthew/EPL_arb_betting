@@ -4,7 +4,7 @@
 
 Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
-![projectimage](projectimage.jpg)
+![projectimage](project_image.webp)
 
 ---
 ## Project Overview 🗂
