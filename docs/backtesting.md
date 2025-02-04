@@ -32,6 +32,55 @@ The following section shows the results of simulating simple betting strategies.
 <img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="900" height="600">
 
 ---
+## **Performance Breakdown by Strategy**
+
+### **1. Profitability Across Strategies**
+| Strategy                     | Final Bankroll (£) | Growth (%) | Risk Level |
+|------------------------------|--------------------|------------|------------|
+| **Bet on Away Underdogs**    | **£12,000**       | **+500%**  | High       |
+| **Bet on Underdogs**         | £0                | -100%      | Very High  |
+| **Bet on Favourites**        | £0                | -100%      | Moderate   |
+| **Bet on Draws**             | £0                | -100%      | Moderate   |
+| **Bet on Home Favourites**   | £0                | -100%      | Low        |
+| **Bet on Home Underdogs**    | £0                | -100%      | Very High  |
+
+### **Key Insights**
+✔ **Only betting on away underdogs resulted in long-term profitability, suggesting market inefficiencies in away team pricing.**  
+✔ **All other strategies led to full bankroll depletion, indicating efficient bookmaker pricing in home favorites, draws, and general underdog markets.**  
+✔ **Away underdog betting displayed significant bankroll fluctuations, requiring a strong risk management approach to mitigate downturns.**  
+✔ **Betting on generic underdogs (both home and away) was not profitable, reinforcing that home underdogs are correctly priced by bookmakers.**  
+
+---
+
+## **2. Trade-Off Between Return and Volatility**
+One of the most important takeaways from this backtest is the **high volatility associated with the only profitable strategy**:
+
+- **Betting on away underdogs yielded the highest bankroll growth but came with substantial drawdowns.**  
+- **A risk-averse bettor would struggle to maintain confidence in the strategy** due to periods of severe downturns before eventual recoveries.  
+- **All other strategies had much lower variance but ultimately led to zero bankroll**, showing that bookmakers efficiently price favorites, draws, and home underdogs.  
+
+This suggests that **capital allocation and proper bankroll management** are essential for sustaining a profitable edge in away underdog betting.
+
+---
+
+## **3. Why Away Underdog Betting Succeeds**
+The **consistent outperformance of away underdog betting** suggests that **bookmakers systematically underprice this category in Premier League betting**:
+
+📌 **Public bias inflates home team prices** → Most bettors prefer backing home favorites, leading to **less favorable odds for them and better value on away underdogs**.  
+📌 **Away underdogs have unpredictable but high-return moments** → While they win less frequently, **their high odds compensate for the lower hit rate**.  
+📌 **Premier League unpredictability benefits this strategy** → The league sees **regular upsets**, making away underdog betting more viable than in other leagues with more dominant home teams.  
+
+---
+
+## **Conclusion**
+Our findings confirm that **simple betting strategies are largely ineffective in Premier League betting, with one key exception: betting on away underdogs**. However, even this approach requires **careful bankroll management due to high volatility**.
+
+To **maximize profitability**, further refinements should include:
+- **Dynamic stake sizing models to account for risk-adjusted returns.**
+- **Market analysis to determine ideal away underdog betting conditions (e.g., team form, injuries, fixture congestion).**
+- **Incorporation of statistical models to refine selection beyond blindly backing away underdogs.**
+
+---
 
 ### **Simulation of arbitrage strategies**  :
 
