@@ -84,6 +84,8 @@ Our findings confirm that most strategies will lead to losing all of the bankrol
 
 It is worth noting that most strategies ended up at zero until a **hard cap** was set for the stake limit, such that once proportional stakes exceeded this limit the stake wouldn't increase. Therefore dynamic staking, in most cases, was too aggressive and would lead to losing money.
 
+**Custom strategy** : the custom strategy used xor logic to set conditions for a weak favourite or a strong underdog. The threshold for weak favourite was set at and implied win rate lower than 60%. The threshold for strong underdog was set at and implied win rate higher than 20%. Even after making abstract conditions based off of insights from the EDA about when outcomes are mispriced, the custom strategy still failed to outperform the best stratefy (biased second favourite abritrage).
+
 To **maximize profitability**, further refinements should include:
 - **Data-driven stake sizing models to enhance compounding and more effectively mitigate risk.**
 - **Expansion of odds data collection to international leagues for even better earnings.**
@@ -163,6 +165,6 @@ To **maximize profitability**, further refinements should include:
 
 ## **Conclusion**
 
-Ultimately results show that simply gambling is almost never a good idea. The only instance of success when simply gambling was when betting on away underdogs, which appeared underpriced. Even when this was profitable, it was only profitable after implementing a hard flat cap on the stake limit. Therefore we would **strongly** advise against non-arbitrage betting. As this requires both luck from hte uncertaitny of the event and knowledge of how to set an optimal dynamic stake limit, which itself is uncertain.
+Ultimately results show that simply gambling is almost never a good idea. The only instance of success when simply gambling was when betting on away underdogs, which appeared underpriced. Even when this was profitable, it was only profitable after implementing a hard flat cap on the stake limit. Therefore we would **strongly** advise against non-arbitrage betting. As this requires both luck from the uncertaitny of the event and knowledge of how to set an optimal dynamic stake limit, which itself is uncertain.
 
 Arbitrage, on the other hand is much more profitable. Although returns have slowed down in recent years, arbitrage opportunities should still be frequent when accounting for different leagues and sports. For premier league games, second-favourite biased arbitrage proved to be the most profitable, returning **350% in 4.5 years**. This is impressive considering the S&P500 returned 82% in the same period. This strategy had the optimal blend of profit per event and frequency of payout. In the future, I aim to deploy advances statistical techniques to dynamically determine the ratio of bias between the events.
