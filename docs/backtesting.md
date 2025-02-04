@@ -19,7 +19,12 @@ In this section we devekioed backtesting functions to simulate betting strategie
 ## Visualizations
 
 - **Simulation of simple betting strategies**
-- 
+
+![alt text](bet_simulation.svg)
+
 - **Simulation of arbitrage strategies**
-- 
+
+- ![alt text](arb_simulation.png)
+
+  
 - **Simulation of custom arbitrage strategy**
