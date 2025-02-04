@@ -152,7 +152,7 @@ The following section shows the results of simulating different arbitrage strate
 
 ## **Insight**
 
-Our findings confirm that **arbitrage betting remains a viable strategy in Premier League markets** when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**.
+Our findings confirm that **arbitrage betting remains a viable strategy in Premier League markets** when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**. This strategy has both a high enough profit per event and frequency of success to be compoundingly successful
 
 To **maximize profitability**, further refinements should include:
 - **Algorithmic bet execution to minimize delays.**
