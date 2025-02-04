@@ -1,7 +1,7 @@
 body {
     background-color: #0A192F;
     color: #FFFFFF;
-    font-family: "Times New Roman", serif;
+    font-family: "Helvetica Neue", serif;
     line-height: 1.8;
     margin: 0;
     padding: 40px;
@@ -11,7 +11,7 @@ body {
 
 h1, h2, h3 {
     color: #FFFFFF;
-    font-family: "Times New Roman", serif;
+    font-family: "Helvetica Neue", serif;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 2px solid #FFFFFF;
