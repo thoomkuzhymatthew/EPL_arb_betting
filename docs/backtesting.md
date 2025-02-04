@@ -40,9 +40,9 @@ The following section shows the results of simulating simple betting strategies.
 The following sections show the results of simulating different arbitrage strategies. The 5 following strategies were simulated:
 
 - Unbiased arbitrage betting
-- Biased arbitrage betting towards the favourite outcome
-- Biased arbitrage betting towards the second favourite outcome
-- Biased arbitrage betting towards the third favourite outcome (underdog)
+- Biased arbitrage betting towards the favourite outcome (outcome with the lowest odds)
+- Biased arbitrage betting towards the second favourite outcome (outcome with second the lowest odds)
+- Biased arbitrage betting towards the third favourite outcome (underdog, outcome with the highest odds)
 - Custom arbitrage strategy for bias towards weak facourites and strong underdogs
 
 Note that outcomes for each event are ordered numerically to determine if the outcome is a favourite or underdog. Thus draw odds can take the value of the underdog.
@@ -61,14 +61,10 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# **Arbitrage Betting Strategy Performance in Premier League**
-**Prepared for: [Your Business/Project Name]**  
-**Date: [Insert Date]**  
 
 ---
 
-## **Executive Summary**
-This report evaluates the **performance of arbitrage betting strategies** applied to **Premier League football markets** over a five-year backtesting period. Since these are arbitrage events, negative bankroll periods are not expected; instead, our focus is on the **efficiency, profitability, and trade-offs between strategy types**.
+<img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
 Key findings include:
 - **"Only Second Favorite" arbitrage strategy produced the highest long-term returns**, indicating a persistent pricing inefficiency in Premier League markets.
@@ -119,11 +115,10 @@ The **consistent outperformance of the second-favorite strategy** suggests that 
 Our findings confirm that **arbitrage betting remains a viable strategy in Premier League markets** when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**.
 
 To **maximize profitability**, further refinements should include:
+
 - **Algorithmic bet execution to minimize delays.**
 - **Data-driven stake sizing models to enhance compounding.**
-- **Expansion of arbitrage detection to international leagues for cross-market inefficiencies and larger samples.**
-- 
+- **Expansion of arbitrage detection to international leagues for cross-market inefficiencies and larger samples, to spot mmore opportunities.**
+  
 ---
-
-<img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
