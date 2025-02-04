@@ -159,7 +159,7 @@ Our findings confirm that **arbitrage betting remains a viable strategy in Premi
 To **maximize profitability**, further refinements should include:
 - **Algorithmic bet execution to minimize delays.**
 - **Data-driven stake sizing models to enhance compounding.**
-- **Expansion of arbitrage detection to international leagues for cross-market inefficiencies.**
+- **Expansion of arbitrage detection to international leagues for cross-market inefficiencies. To increase cope for arbitrage opportunities**
 
 ---
 
