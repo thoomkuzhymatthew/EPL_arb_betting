@@ -48,8 +48,16 @@ These findings can be accessed in:
 - 📓 **`NB03-Simple_Betting_Strategies.ipynb`**  
 - 📓 **`NB04-arbitrage_betting_strategies.ipynb`**  
 
+
 ## Team Background
 
-Matthew Thoomkuzhy - Bsc Economics
-Xinyan Liao - Bsc  Economics
-Noah Salehi - Politics Philosophy and Economics
+- Matthew Thoomkuzhy - Bsc Economics
+- Xinyan Liao - Bsc  Economics
+- Noah Salehi - Politics Philosophy and Economics
+
+---
+
+## Contact  
+For questions or feedback, please reach out via GitHub Issues or contribute to this project through pull requests.
+
+
