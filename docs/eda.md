@@ -1,18 +1,21 @@
 ---
-title: "Exploratory Data Analysis"
+title: "Backtesting Results"
 layout: default
 ---
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
-# Exploratory Data Analysis
+# Backtesting Results
 
-## Arbitrage Opportunities
-Analysis of arbitrage occurrences across different bookmakers, teams, and time periods.
+## Summary of Strategy Performance
+We tested different betting strategies using historical odds and match results. Key metrics include:
+- **Profitability**
+- **Risk Metrics**
+- **Comparisons Against Market Efficiency**
 
 ## Visualizations
-- **Arbitrage Heatmap for Bookmakers**
-- **Arbitrage Prevalence Over Time**
-- **Odds Differences and Arbitrage Opportunities**
+- **Cumulative Return Over Time**
+- **Risk vs. Return Analysis**
+- **Performance by League and Time Period**
 
-Find full analysis in our [Jupyter Notebook](notebooks/eda.ipynb).
+Find detailed results in our [Jupyter Notebook](notebooks/backtesting.ipynb).
