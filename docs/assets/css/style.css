@@ -1,18 +1,19 @@
 body {
     background-color: #0A192F;
-    color: #E0E0E0;
-    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    font-family: "Times New Roman", serif;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
 }
 
 h1, h2, h3 {
-    color: #64FFDA;
+    color: #FFFFFF;
+    font-family: "Times New Roman", serif;
 }
 
 a {
-    color: #64FFDA;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
