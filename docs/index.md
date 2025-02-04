@@ -20,8 +20,7 @@ We wanted to see if we could beat the bookies...
 
 This project investigates historical betting odds, arbitrage opportunities, and betting strategy backtesting. Our analysis spans five years of Premier League matches from 2020-2025, using aggregated odds data from multiple bookmakers.
 
-![alt text](project_image.webp)
-
+<img src="project_image.webp" alt="Leicester City 2015-16 Win" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## Key Sections
 - [About](about.html) - Project background and objectives.
