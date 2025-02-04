@@ -5,14 +5,20 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+<div class="header">
+    <a href="index.md">Home</a>
+    <a href="about.md">About</a>
+    <a href="eda.md">Exploratory Data Analysis</a>
+    <a href="backtesting.md">Backtesting</a>
+</div>
+
 # Exploratory Data Analysis
 
-## Arbitrage Opportunities
-Analysis of arbitrage occurrences across different bookmakers, teams, and time periods.
+## Key Findings
+- Arbitrage opportunities identified between different bookmakers.
+- Trends in betting odds movement over time.
 
-## Visualizations
+## Visuals
 - **Arbitrage Heatmap for Bookmakers**
-- **Arbitrage Prevalence Over Time**
-- **Odds Differences and Arbitrage Opportunities**
-
-Find full analysis in our [Jupyter Notebook](notebooks/eda.ipynb).
+- **Time Series of Arbitrage Occurrences**
+- **Odds Spread Distribution**
