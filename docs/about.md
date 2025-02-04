@@ -49,4 +49,7 @@ These findings can be accessed in:
 - 📓 **`NB04-arbitrage_betting_strategies.ipynb`**  
 
 ## Team Background
-We are a team of data science and economics students researching the statistical intricacies of betting markets.
+
+Matthew Thoomkuzhy - Bsc Economics
+Xinyan Liao - Bsc  Economics
+Noah Salehi - Politics Philosophy and Economics
