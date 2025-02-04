@@ -20,7 +20,7 @@ We wanted to see if we could beat the bookies...
 
 This project investigates historical betting odds, arbitrage opportunities, and betting strategy backtesting. Our analysis spans five years of Premier League matches from 2020-2025, using aggregated odds data from multiple bookmakers.
 
-![alt text](projectimage.jpg)
+![alt text](project_image.webp)
 
 
 ## Key Sections
