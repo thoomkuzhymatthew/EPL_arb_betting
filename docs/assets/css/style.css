@@ -9,7 +9,7 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4 {
     color: #454545;
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
@@ -19,6 +19,12 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: none !important; 
     margin-bottom: 0 !important;
 }
+
+h1 { font-size: 36px; }  
+h2 { font-size: 24px; }  
+h3 { font-size: 20px; }
+h4 { font-size: 16px; }
+
 
 .header {
     background-color: #cfcfcf;
