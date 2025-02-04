@@ -14,11 +14,12 @@ layout: default
 
 # Backtesting Results
 
-## Summary
-- Performance metrics of different betting strategies.
-- Profitability, risk-adjusted returns, and success rates.
+In this section we devekioed backtesting functions to simulate betting strategies on the 5 year sample. We categorised these into simple strategeis explored in NB03 and arbitrage strategies explored in NB04.
 
 ## Visualizations
-- **Cumulative Return Analysis**
-- **Risk vs. Return Comparisons**
-- **Profitability by League and Time Period**
+
+- **Simulation of simple betting strategies**
+- 
+- **Simulation of arbitrage strategies**
+- 
+- **Simulation of custom arbitrage strategy**
