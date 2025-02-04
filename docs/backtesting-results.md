@@ -3,7 +3,7 @@ layout: default
 title: Backtesting Results
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 # 📊 Betting Strategy Backtesting Results
 
