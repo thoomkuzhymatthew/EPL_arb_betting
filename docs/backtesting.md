@@ -16,9 +16,6 @@ layout: default
 
 In this section, we developed backtesting functions to simulate betting strategies on the 5-year sample. We categorized these into simple strategies explored in NB03 and arbitrage strategies explored in NB04.
 
-## Visualizations:
----
-
 ### **Simulation of simple betting strategies**:
 
 **overview:**
