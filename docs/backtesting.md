@@ -78,6 +78,16 @@ The following section shows the results of simulating simple betting strategies.
     </tr>
 </table>
 
+## **Insight**
+
+Our findings confirm that most strategies will lead to losing all of the bankroll over the 4.5 year period. The **only**  successful strategy involved betting on away underdogs, this outcome proved to be consistently mispriced over the 5 year period. A insight which was first apparent in the EDA.
+
+It is worth noting that most strategies ended up at zero until a **hard cap** was set for the stake limit, such that once proportional stakes exceeded this limit the stake wouldn't increase. Therefore dynamic staking, in most cases, was too aggressive and would lead to losing money.
+
+To **maximize profitability**, further refinements should include:
+- **Data-driven stake sizing models to enhance compounding and more effectively mitigate risk.**
+- **Expansion of odds data collection to international leagues for even better earnings.**
+
 
 ### **Simulation of arbitrage strategies**:
 
@@ -140,7 +150,8 @@ The following section shows the results of simulating different arbitrage strate
 
 ---
 
-## **Conclusion**
+## **Insight**
+
 Our findings confirm that **arbitrage betting remains a viable strategy in Premier League markets** when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**.
 
 To **maximize profitability**, further refinements should include:
