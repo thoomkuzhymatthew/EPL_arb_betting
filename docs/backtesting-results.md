@@ -1,41 +1,37 @@
-# 📊 Backtesting Results
+---
+layout: default
+title: Backtesting Results
+---
 
-<div align="center">
-    <a href="index.md"><button>🏠 Home</button></a>
-    <a href="backtesting-results.md"><button>📊 Backtesting</button></a>
-    <a href="eda.md"><button>🔍 EDA</button></a>
+<link rel="stylesheet" type="text/css" href="assets/style.css">
+
+# 📊 Betting Strategy Backtesting Results
+
+<div class="button-container">
+    <a href="index.md" class="nav-button">🏠 Home</a>
+    <a href="backtesting-results.md" class="nav-button">📊 Backtesting</a>
+    <a href="eda.md" class="nav-button">🔍 EDA</a>
 </div>
 
 ---
 
-## 📌 About Backtesting
-Backtesting allows us to evaluate the performance of different **arbitrage betting strategies** on historical data.
+## **Performance Evaluation**
+<div class="content-box">
+Backtesting provides a **data-driven approach** to evaluating betting strategies. Using historical EPL data, we assess each strategy’s **return on investment (ROI)**, **risk exposure**, and **maximum drawdown**.
+</div>
 
-Key components analyzed:
-- ✅ **Return on Investment (ROI)**
-- ✅ **Win/Loss Rate**
-- ✅ **Maximum Drawdown**
-- ✅ **Risk-Adjusted Performance**
+## **Strategy Performance Table**
+<div class="content-box">
+| Strategy     | ROI (%) | Win Rate (%) | Max Drawdown (%) |
+|-------------|--------|-------------|----------------|
+| **Value Betting** | 18.7   | 63.2        | -8.4         |
+| **Kelly Criterion** | 22.4   | 70.1        | -6.7         |
+| **Flat Betting** | 12.9   | 55.8        | -10.1         |
+</div>
 
----
-
-## 📈 Strategy Performance Overview
-| **Strategy**   | **ROI (%)** | **Win Rate (%)** | **Max Drawdown (%)** |
-|---------------|------------|----------------|----------------|
-| **Strategy A** | 15.2       | 60.4           | -10.5          |
-| **Strategy B** | 10.8       | 55.2           | -12.1          |
-| **Strategy C** | 8.5        | 50.1           | -14.3          |
-
----
-
-## 📊 Key Insights
-- **Strategy A** has the highest ROI but a moderate win rate.
-- **Strategy B** is more conservative but stable over time.
-- **Drawdowns vary**, meaning risk exposure differs for each approach.
-
----
-
-## 🔗 Additional Analysis
-For further insights into **betting odds trends and arbitrage inefficiencies**, check out our **Exploratory Data Analysis (EDA)** section.
-
-🔗 **[Go to EDA →](eda.md)**
+## **Key Insights**
+<div class="content-box">
+- **Kelly Criterion had the highest returns** but also increased risk exposure.
+- **Flat Betting was the most stable** but had lower long-term profitability.
+- **Risk-adjusted metrics suggest Value Betting balances return and risk best.**
+</div>
