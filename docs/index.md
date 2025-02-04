@@ -17,6 +17,9 @@ layout: default
 ## Overview
 This project investigates historical betting odds, arbitrage opportunities, and betting strategy backtesting. Our analysis spans five years of Premier League matches, using aggregated odds data from multiple bookmakers.
 
+![alt text](projectimage.jpg)
+
+
 ## Key Sections
 - [About](about.html) - Project background and objectives.
 - [Exploratory Data Analysis](eda.html) - Initial insights and data visualization.
