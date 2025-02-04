@@ -1,33 +1,29 @@
-/* Apply global styling */
+/* Global Styling */
 body {
     background-color: #0A1F44; /* Deep Navy Blue */
     color: #EAEAEA; /* Soft White Text */
     font-family: 'Arial', sans-serif; /* Professional Corporate Font */
-    line-height: 1.6;
+    line-height: 1.8;
     text-align: center;
+    padding: 20px;
 }
 
-/* Style headers */
-h1, h2, h3 {
-    color: #F5B041; /* Gold Accent */
-}
-
-/* Navigation buttons */
+/* Navigation Buttons */
 .button-container {
     margin-top: 20px;
 }
 
 .nav-button {
     display: inline-block;
-    padding: 12px 20px;
-    margin: 10px;
-    font-size: 18px;
+    padding: 10px 18px;
+    margin: 8px;
+    font-size: 16px;
     font-weight: bold;
     text-decoration: none;
     color: #FFF;
     background: linear-gradient(135deg, #1C3FAA, #0A1F44);
     border: 2px solid #F5B041;
-    border-radius: 6px;
+    border-radius: 5px;
     transition: all 0.3s ease-in-out;
 }
 
@@ -36,12 +32,42 @@ h1, h2, h3 {
     color: #0A1F44;
 }
 
-/* Content container for sections */
+/* Section Content */
 .content-box {
     background: rgba(255, 255, 255, 0.1);
-    padding: 20px;
+    padding: 25px;
     border-radius: 8px;
     box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
-    margin: 20px auto;
+    margin: 30px auto;
+    width: 75%;
+    text-align: left;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #F5B041;
+    text-align: left;
+}
+
+th {
+    background-color: #1C3FAA;
+    color: white;
+}
+
+td {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Image Styling */
+img {
+    border-radius: 6px;
     width: 80%;
+    margin: 15px 0;
 }
