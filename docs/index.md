@@ -12,7 +12,7 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# What is the best betting strategy for betting on premier league games?
+# What is the Best Betting strategy for the English Premier League?
 
 ## Overview
 
@@ -23,6 +23,6 @@ This project investigates historical betting odds, arbitrage opportunities, and 
 <img src="project_image.webp" alt="Leicester City 2015-16 Win" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## Key Sections
-- [About](about.html) - Project background and objectives.
-- [Exploratory Data Analysis](eda.html) - Initial insights and data visualization.
-- [Backtesting Results](backtesting.html) - Evaluation of betting strategies.
+- [About](about.html) - Project Background and Objectives.
+- [Exploratory Data Analysis](eda.html) - Initial Insights and Data Visualization.
+- [Backtesting Results](backtesting.html) - Evaluation of Betting Strategies.
