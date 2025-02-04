@@ -3,7 +3,7 @@ layout: default
 title: Arbitrage Betting Analysis
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/styles.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
 
 # 📈 Arbitrage Betting Strategies: A Data-Driven Analysis
 
