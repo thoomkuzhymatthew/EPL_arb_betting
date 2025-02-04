@@ -12,7 +12,7 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# Sports Betting Data Science Project
+# What is the best betting strategy for betting on premier league games?
 
 ## Overview
 This project investigates historical betting odds, arbitrage opportunities, and betting strategy backtesting. Our analysis spans five years of Premier League matches, using aggregated odds data from multiple bookmakers.
