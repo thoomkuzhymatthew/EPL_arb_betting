@@ -18,7 +18,7 @@ In this section, we developed backtesting functions to simulate betting strategi
 
 ### **Simulation of simple betting strategies**:
 
-**overview:**
+#### **overview:**
 
 The following section shows the results of simulating simple betting strategies. The 6 following strategies were simulated:
 
@@ -35,7 +35,7 @@ The following section shows the results of simulating simple betting strategies.
 
 ### **Simulation of arbitrage strategies**  :
 
-**overview:**
+#### **overview:**
 
 The following sections show the results of simulating different arbitrage strategies. The 5 following strategies were simulated:
 
@@ -44,7 +44,8 @@ The following sections show the results of simulating different arbitrage strate
 - Biased arbitrage betting towards the second favourite outcome
 - Biased arbitrage betting towards the third favourite outcome (underdog)
 - Custom arbitrage strategy for bias towards weak facourites and strong underdogs
-- 
+
+Note that outcomes for each event are ordered numerically to determine if the outcome is a favourite or underdog. Thus draw odds can take the value of the underdog 
 
 <img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
