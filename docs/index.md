@@ -3,7 +3,7 @@ title: "Home"
 layout: default
 ---
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
 # Sports Betting Data Science Project
 
