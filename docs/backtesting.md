@@ -30,10 +30,9 @@ The following section shows the results of simulating simple betting strategies.
 
 <img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="900" height="600">
 
----
+
 ## **Performance Breakdown by Strategy**
 
-### **1. Profitability Across Strategies**
 <table>
     <tr>
         <th>Strategy</th>
@@ -94,8 +93,6 @@ The following section shows the results of simulating different arbitrage strate
 <img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
 ## **Performance Breakdown by Strategy**
-
-### **1. Profitability Across Strategies**
 <table>
     <tr>
         <th>Strategy</th>
