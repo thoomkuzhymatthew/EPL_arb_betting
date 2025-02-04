@@ -150,7 +150,7 @@ The following section shows the results of simulating different arbitrage strate
     </tr>
 </table>
 
----
+
 
 ## **Insight**
 
@@ -161,7 +161,6 @@ To **maximize profitability**, further refinements should include:
 - **Data-driven stake sizing models to enhance compounding.**
 - **Expansion of arbitrage detection to international leagues for cross-market inefficiencies. To increase cope for arbitrage opportunities**
 
----
 
 ## **Conclusion**
 
