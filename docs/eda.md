@@ -3,6 +3,8 @@ title: "Exploratory Data Analysis"
 layout: default
 ---
 
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 # Exploratory Data Analysis
 
 ## Arbitrage Opportunities
