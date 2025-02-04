@@ -14,11 +14,11 @@ layout: default
 
 # Exploratory Data Analysis
 
-## Key Findings
+**Key Findings**
 - Arbitrage opportunities identified between different bookmakers.
 - Trends in betting odds movement over time.
 
-## Visuals
+**Visuals**
 - **Arbitrage Heatmap for Bookmakers**
 - **Time Series of Arbitrage Occurrences**
 - **Odds Spread Distribution**
