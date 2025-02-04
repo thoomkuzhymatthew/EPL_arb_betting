@@ -79,7 +79,6 @@ The following section shows the results of simulating simple betting strategies.
     </tr>
 </table>
 
----
 
 ### **Simulation of arbitrage strategies**:
 
@@ -94,7 +93,6 @@ The following section shows the results of simulating different arbitrage strate
 
 <img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
----
 ## **Performance Breakdown by Strategy**
 
 ### **1. Profitability Across Strategies**
