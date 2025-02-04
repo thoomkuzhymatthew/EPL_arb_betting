@@ -9,13 +9,15 @@ body {
     margin: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
     color: #454545;
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
     text-transform: uppercase;
     border-bottom: 2px solid #FFFFFF;
     padding-bottom: 5px;
+    border-bottom: none !important; 
+    margin-bottom: 0 !important;
 }
 
 .header {
