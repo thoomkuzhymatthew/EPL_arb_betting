@@ -10,117 +10,117 @@
 text {
    text-rendering: optimizeLegibility;
 }
-#pw5DsoV .plot-title {
+#pjprNwv .plot-title {
 fill: #474747;
 font-weight: bold;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 22.0px;
 
 }
-#pw5DsoV .plot-subtitle {
+#pjprNwv .plot-subtitle {
 fill: #0000ff;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 16.0px;
 
 }
-#pw5DsoV .plot-caption {
+#pjprNwv .plot-caption {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#pw5DsoV .hyperlink-element {
+#pjprNwv .hyperlink-element {
 fill: #118ed8;
 font-weight: normal;
    font-style: normal;
 }
-#pw5DsoV .legend-title {
+#pjprNwv .legend-title {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 15.0px;
 
 }
-#pw5DsoV .legend-item {
+#pjprNwv .legend-item {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#pw5DsoV .axis-title-x {
+#pjprNwv .axis-title-x {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 14.0px;
 
 }
-#pw5DsoV .axis-text-x {
+#pjprNwv .axis-text-x {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 12.0px;
 
 }
-#dqSmveQ .axis-tooltip-text-x {
+#dgnlpfI .axis-tooltip-text-x {
 fill: #ffffff;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#pw5DsoV .axis-title-y {
+#pjprNwv .axis-title-y {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 14.0px;
 
 }
-#pw5DsoV .axis-text-y {
+#pjprNwv .axis-text-y {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 12.0px;
 
 }
-#dqSmveQ .axis-tooltip-text-y {
+#dgnlpfI .axis-tooltip-text-y {
 fill: #ffffff;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#pw5DsoV .facet-strip-text-x {
+#pjprNwv .facet-strip-text-x {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#pw5DsoV .facet-strip-text-y {
+#pjprNwv .facet-strip-text-y {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#dqSmveQ .tooltip-text {
+#dgnlpfI .tooltip-text {
 fill: #474747;
 font-weight: normal;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#dqSmveQ .tooltip-title {
+#dgnlpfI .tooltip-title {
 fill: #474747;
 font-weight: bold;
    font-style: normal;font-family: Lucida Grande, sans-serif;
 font-size: 13.0px;
 
 }
-#dqSmveQ .tooltip-label {
+#dgnlpfI .tooltip-label {
 fill: #474747;
 font-weight: bold;
    font-style: normal;font-family: Lucida Grande, sans-serif;
@@ -129,7 +129,7 @@ font-size: 13.0px;
 }
 
   </style>
-  <g id="pw5DsoV">
+  <g id="pjprNwv">
     <path fill-rule="evenodd" fill="rgb(255,255,255)" fill-opacity="1.0" d="M0.0 0.0 L0.0 400.0 L800.0 400.0 L800.0 0.0 Z">
     </path>
     <g transform="translate(28.5 52.5 ) ">
@@ -177,7 +177,7 @@ font-size: 13.0px;
           </g>
         </g>
       </g>
-      <g clip-path="url(#ctymanF)" clip-bounds-jfx="[rect (32.783360008384264, 0.0), (732.2166399916157, 297.0)]">
+      <g clip-path="url(#cHRJ330)" clip-bounds-jfx="[rect (32.783360008384264, 0.0), (732.2166399916157, 297.0)]">
         <g transform="translate(32.783360008384264 0.0 ) ">
           <g>
             <g>
@@ -193,7 +193,7 @@ font-size: 13.0px;
           </g>
         </g>
         <defs>
-          <clipPath id="ctymanF">
+          <clipPath id="cHRJ330">
             <rect x="32.783360008384264" y="0.0" width="732.2166399916157" height="297.0">
             </rect>
           </clipPath>
@@ -351,12 +351,12 @@ font-size: 13.0px;
     </g>
     <g transform="translate(427.3916800041921 21.6 ) ">
       <text class="plot-title" y="0.0" text-anchor="middle">
-        <tspan>Density Plot of Draw Odds</tspan>
+        <tspan>Density Plot of Odds Difference</tspan>
       </text>
     </g>
     <g transform="translate(427.3916800041921 42.8 ) ">
       <text class="plot-subtitle" y="0.0" text-anchor="middle">
-        <tspan>Draw odds cluster at the range of 3 to 5 with a peak at 3.6</tspan>
+        <tspan>Most matches have an odds difference of between 0 and 2</tspan>
       </text>
     </g>
     <g transform="translate(15.200000000000001 201.0 ) rotate(-90.0 ) ">
@@ -372,6 +372,6 @@ font-size: 13.0px;
     <path fill="rgb(0,0,0)" fill-opacity="0.0" stroke="rgb(71,71,71)" stroke-opacity="1.0" stroke-width="0.0" d="M0.0 0.0 L0.0 400.0 L800.0 400.0 L800.0 0.0 Z" pointer-events="none">
     </path>
   </g>
-  <g id="dqSmveQ">
+  <g id="dgnlpfI">
   </g>
 </svg>
