@@ -5,17 +5,20 @@ layout: default
 
 <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 
+<div class="header">
+    <a href="index.md">Home</a>
+    <a href="about.md">About</a>
+    <a href="eda.md">Exploratory Data Analysis</a>
+    <a href="backtesting.md">Backtesting</a>
+</div>
+
 # Backtesting Results
 
-## Summary of Strategy Performance
-We tested different betting strategies using historical odds and match results. Key metrics include:
-- **Profitability**
-- **Risk Metrics**
-- **Comparisons Against Market Efficiency**
+## Summary
+- Performance metrics of different betting strategies.
+- Profitability, risk-adjusted returns, and success rates.
 
 ## Visualizations
-- **Cumulative Return Over Time**
-- **Risk vs. Return Analysis**
-- **Performance by League and Time Period**
-
-Find detailed results in our [Jupyter Notebook](notebooks/backtesting.ipynb).
+- **Cumulative Return Analysis**
+- **Risk vs. Return Comparisons**
+- **Profitability by League and Time Period**
