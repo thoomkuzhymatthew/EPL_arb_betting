@@ -47,23 +47,6 @@ The following sections show the results of simulating different arbitrage strate
 
 Note that outcomes for each event are ordered numerically to determine if the outcome is a favourite or underdog. Thus draw odds can take the value of the underdog.
 
----
-title: "Arbitrage Betting Strategy Performance in Premier League"
-layout: default
----
-
-<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-<div class="header">
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="eda.html">Exploratory Data Analysis</a>
-    <a href="backtesting.html">Backtesting</a>
-</div>
-
-
----
-
 <img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="900" height="600">
 
 Key findings include:
