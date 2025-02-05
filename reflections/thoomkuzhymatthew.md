@@ -7,7 +7,7 @@ I had 2 main roles: Collecitng data in NB01 and carrying out EDA and backtesting
 
 The first problem I had to overcome was that the api only collected historical data for a signle day so I wrote a fucntion (def fetch_odds) to loop from the start date to end date, collect the data for each date in the range, and append the results to a JSON file.
 
-The 2nd problem I faced was that the data in the file was too large to be pushed to github so I had to resplit the collected data into smaller files. So I wrote a function (def split_JSON_By_month) which splits the data for matches collected by month. These monthly files do not exceed the 30MB limit os could be pushed to github.
+The 2nd problem I faced was that the data in the file was too large to be pushed to github so I had to resplit the collected data into smaller files. So I wrote a function (def split_JSON_By_month) which splits the data for matches collected by month. These monthly files do not exceed the 30MB limit so could be pushed to github.
 
 This meant a change in the folder structure for the directory was crucial so that all of these new JSON's could be stored clearly, so a new folder was created within data/raw called grouped events. This was a technical decision I influenced.
 
