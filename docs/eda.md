@@ -12,9 +12,7 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# Exploratory Data Analysis
-
-# Investigation of Odds Mispricings
+## Investigation of Odds Mispricings
 In simple unidirectional betting, we are most often 'gambling' because odds are priced in a way where the bookmakers always have an edge over us (in a large sample, of course). Hence, to further refine our strategy, we want to investigate if there are any mispricings in odds that we can potentially exploit in our discretionary strategies.
 
 <img src="home_win_probabilities.svg" alt="Implied vs Actual Probabilities for Home Wins" style="max-width: 100%; height: auto; display: block; margin: auto;">
@@ -29,7 +27,7 @@ Away odds are priced almost perfectly for teams which are favourites and fair ma
 
 Draw odds are almost always overpriced and at rather significant levels, offering no opportunity to exploit these mispricing.
 
-## Insight
+### Insight
 
 From our analysis, there are 3 opportunities to exploit mispriced odds:
 1. Betting on Home Favourites (Odds from 1.25 to 1.75)
@@ -38,7 +36,7 @@ From our analysis, there are 3 opportunities to exploit mispriced odds:
 
 These discretionary strategies will be analysed alongside our simple strategies in [Backtesting Results](backtesting.md).
 
-# Frequency and Profitability of Arbitrage Opportunities
+## Frequency and Profitability of Arbitrage Opportunities
 
 <img src="arb_opportunity_frequency.png" alt="Time Series of Arbitrage Opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
