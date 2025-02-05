@@ -128,7 +128,7 @@ The following section shows the results of simulating different arbitrage strate
 - Biased Arbitrage Betting Towards the Underdog (Highest Odds)
 - Custom Arbitrage Strategy for Bias Towards Weak Favourites and Strong Underdogs
 
-This custom strategy will essentially be deciding to engage in biased vs unbiased behaviour based on the insights from part 8 as seen below:
+This custom strategy will essentially be deciding to engage in biased vs unbiased behaviour based on the conditions below:
 
 <table>
     <thead>
@@ -162,6 +162,7 @@ This custom strategy will essentially be deciding to engage in biased vs unbiase
     </tbody>
 </table>
 
+Let's see how these strategies perform when compared against each other. 
 
 <img src="./figures/arb_simulation.png" alt="Arbitrage Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
