@@ -57,3 +57,19 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+
+.site-title {
+    visibility: hidden;
+    display: none;
+}
+
+.site-title::after {
+    content: "Good Gamblers";
+    visibility: visible;
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    color: #000000;
+}
