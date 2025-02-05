@@ -23,7 +23,7 @@ I carried out EDA on matches with arbitrage opportunities. I investigated the na
 
 The main problem faced was that initially my graphs were very volatile and going up and down, which didn't make sense for arbitrage (non loss events). So I changed the bias logic to rely on a base stake for all events (ensuring break even) and an extra stake to be allocated to the bias outcome, which would pay out when the bias outcome and the Full time result matched. (the bet was successful).
 
-Due to this, another technical decision I made was to make my own backtesting funciton rather than use Xinyan's due to stark differences in the strategy logic. All attempts of manipulating his logic to fit an arbitrage function didn't work, so I decided it was easier to make my own backtesting function from scratch (def sim_arb)
+Due to this, another technical decision I made was to make my own backtesting function rather than use Xinyan's due to stark differences in the strategy logic. All attempts of manipulating his logic to fit an arbitrage function didn't work, so I decided it was easier to make my own backtesting function from scratch (def sim_arb)
 
 ---
 
