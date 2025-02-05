@@ -14,11 +14,5 @@ layout: default
 
 # Exploratory Data Analysis
 
-## Key Findings
-- Arbitrage opportunities identified between different bookmakers.
-- Trends in betting odds movement over time.
-
-## Visuals
-- **Arbitrage Heatmap for Bookmakers**
-- **Time Series of Arbitrage Occurrences**
-- **Odds Spread Distribution**
+## Investigation of Odds Mispricings
+In simple unidirectional betting, we are most often 'gambling' because odds are priced in a way where the bookmakers always have an edge over us (in a large sample, of course). Hence, to further refine our strategy, we want to investigate if there are any mispricings in odds that we can potentially exploit in our discretionary strategies.
