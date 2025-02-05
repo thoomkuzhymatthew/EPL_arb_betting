@@ -1,5 +1,3 @@
-# Individual Reflection
-Matthew Thoomkuzhy
 
 ## Technical Contributions-
 
@@ -27,7 +25,7 @@ The main problem faced was that initially my graphs were very volatile and going
 
 Due to this, another technical decision I made was to make my own backtesting funciton rather than use Xinyan's due to stark differences in the strategy logic. All attempts of manipulating his logic to fit an arbitrage function didn't work, so I decided it was easier to make my own backtesting function from scratch (def sim_arb)
 
-
+---
 
 ## Team Collaboration  
 
@@ -44,8 +42,10 @@ I also informed Noah about the problem I faced in NB01, and the creation of the 
 When editing the website , Xinyan and I organised the times we would be editing. This way it would prevent double editing and bottlenecks, delaying progress.
 
 Not much conflict arose other than varying opinions on design choice for notebooks and website, all of these were brought up formally in meetings and decided on at the time.
+
+ ---
  
-## Learning Journey  
+## Learning Journey 
 
 ### Skills Developed 
 
@@ -65,5 +65,4 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 ### Areas for Future Growth  
 
 **Machine learning-** The next logical step for this project is to deploy more advance models with more parameters and develop a machine learning model to learn what makes a good and bad strategy.
-**Advanced statistical techniques-** To develop more sophisticated models this will require an understanding of advanced statistics to increase the sophistication of my parameters.
 **Web Scraping-** although other API's could be used, scraping data may be very useful and it might've prevented use from needing to use a **Paid API**
