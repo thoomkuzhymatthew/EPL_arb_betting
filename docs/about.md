@@ -12,8 +12,6 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# About This Project
-
 ## Project Objectives
 - Analyze sports betting odds and arbitrage opportunities.
 - Identify patterns and inefficiencies in bookmaker pricing.
@@ -36,7 +34,6 @@ These strategies exploit **pricing inefficiencies** across bookmakers to guarant
 We backtest **four arbitrage strategies**:  
 - **One unbiased arbitrage strategy**  
 - **Three biased arbitrage strategies:** Favoring the **favorite, second-favorite, or underdog**.  
-
 ### 3. Exploratory Data Analysis (EDA)  
 In preparation for backtesting, we conducted **extensive EDA** on betting trends in EPL matches, including:  
 - **Bookmakers offering the best odds**  
