@@ -15,14 +15,49 @@ layout: default
 # Backtesting Simple Betting Strategies
 
 These were the strategies investigated, informed by the outcomes of our [Exploratory Data Analysis](eda.md)
-| Strategy                           | Odds Range     | Strategy Type |
-|-------------------------------------|---------------|----|
-| Betting on Home Favourites         | 1.25 to 1.75  | Discretionary |
-| Betting on Home Underdogs          | 4.5 to 5.5    | Discretionary |
-| Betting on Away Underdogs          | 2.5 to 4.0    | Discretionary |
-| Betting on Favourites  | NIL | Simple |
-| Betting on Underdogs | NIL | Simple |
-| Betting on Draws | NIL | Simple |
+
+<table>
+    <thead>
+        <tr>
+            <th>Strategy</th>
+            <th>Odds Range</th>
+            <th>Strategy Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Betting on Home Favourites</td>
+            <td>1.25 to 1.75</td>
+            <td>Discretionary</td>
+        </tr>
+        <tr>
+            <td>Betting on Home Underdogs</td>
+            <td>4.5 to 5.5</td>
+            <td>Discretionary</td>
+        </tr>
+        <tr>
+            <td>Betting on Away Underdogs</td>
+            <td>2.5 to 4.0</td>
+            <td>Discretionary</td>
+        </tr>
+        <tr>
+            <td>Betting on Favourites</td>
+            <td>NIL</td>
+            <td>Simple</td>
+        </tr>
+        <tr>
+            <td>Betting on Underdogs</td>
+            <td>NIL</td>
+            <td>Simple</td>
+        </tr>
+        <tr>
+            <td>Betting on Draws</td>
+            <td>NIL</td>
+            <td>Simple</td>
+        </tr>
+    </tbody>
+</table>
+
 
 <img src="bet_simulation.svg" alt="Simple Betting Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
