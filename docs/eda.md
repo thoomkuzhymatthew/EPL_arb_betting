@@ -17,8 +17,8 @@ layout: default
 ## Investigation of Odds Mispricings
 In simple unidirectional betting, we are most often 'gambling' because odds are priced in a way where the bookmakers always have an edge over us (in a large sample, of course). Hence, to further refine our strategy, we want to investigate if there are any mispricings in odds that we can potentially exploit in our discretionary strategies.
 
-<img src="home_win_probabilities.svg" alt="Implied vs Actual Probabilities for Home Wins" width="750" height="500">
+<img src="home_win_probabilities.svg" alt="Implied vs Actual Probabilities for Home Wins" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
-<img src="away_win_probabilities.svg" alt="Implied vs Actual Probabilities for Away Wins" width="750" height="500">
+<img src="away_win_probabilities.svg" alt="Implied vs Actual Probabilities for Away Wins" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
-<img src="draw_probabilities.svg" alt="Implied vs Actual Probabilities for Draws" width="750" height="500">
+<img src="draw_probabilities.svg" alt="Implied vs Actual Probabilities for Draws" style="max-width: 100%; height: auto; display: block; margin: auto;">
