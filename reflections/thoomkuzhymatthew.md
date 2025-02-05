@@ -1,7 +1,7 @@
 
 ## Technical Contributions-
 
-I had 2 main roles: Collecitng data in NB01 and carrying out EDA and backtesting for arbitrage functions in NB04.
+I had 2 main roles: Collecting data in NB01 and carrying out EDA and backtesting for arbitrage functions in NB04.
 
 **NB01:**
 
@@ -15,7 +15,7 @@ Evidence can be seen through commits to pull requests 11,13,14,15 and 16. Which 
 
 **NB04:**
 
-Here I faced less problems, I created a backtesting function (def Sim_arb) to backtest how different strategies would affect an inital bankroll of 1000 pounds over time. Evidenced by commits to pull requests 23,24,25,29,30
+I created a backtesting function (def Sim_arb) to backtest how different strategies would affect an inital bankroll of 1000 pounds over time. Evidenced by commits to pull requests 23,24,25,29,30
 
 I also produced simulation plots with the function I created called (def plot_arb). Evidenced by commits to pull requests 23,24,25,29,30
 
