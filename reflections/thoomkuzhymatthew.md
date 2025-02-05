@@ -65,4 +65,4 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 ### Areas for Future Growth  
 
 **Machine learning-** The next logical step for this project is to deploy more advance models with more parameters and develop a machine learning model to learn what makes a good and bad strategy.
-**Web Scraping-** although other API's could be used, scraping data may be very useful and it might've prevented use from needing to use a **Paid API**
+**Web Scraping-** although other API's could be used, scraping data may be very useful and it might've prevented us from needing to use a **Paid API**
