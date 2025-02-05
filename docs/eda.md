@@ -44,6 +44,12 @@ These discretionary strategies will be analysed alongside our simple strategies 
 
 <img src="arbitrage_profit_margin_timeline.png" alt="Time Series of Arbitrage Profit Margins" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
+Unfortunately, we can observe that the prevalence and profitability of arbitrage opportunities have decreased over the years in our dataset. We hypothesize that the initial increase in arbitrage opportunities is due to the 'change in control' in the Premier League where traditionally underdog teams started fairing better. This caused the bookmakers to be unable to efficiently price the odds across the board as there was more uncertainty given this shakeup, but as time went by the bookmakers gathered more information and odds deviations reduced.
+
+However, this doesn't mean that arbitrage loses its place as a strategy! As a full-proof strategy with no risk, we can technically make as much as we're willing to put in -- so even one arbitrage opportunity could make you thousands if the margin and bet size is large enough.
+
 ## Seasonality of Arbitrage Opportunities
 <img src="arbitrage_opportunities_by_month.png" alt="Seasonality of Arbitrage Opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
+
+Interestingly, we can observe that there is some seasonality in the prevalence of arbitrage opportunities. At the start of the season (June/July) arbitrage opportunities are most prevalent as bookmakers are still divided on their expectations for different teams in the new season. Perhaps we could reduce the prevalence of our summer travels and commit more to arbitrage betting in the summer months? 
 
