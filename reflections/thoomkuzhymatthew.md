@@ -3,7 +3,7 @@ Matthew Thoomkuzhy
 
 ## Technical Contributions-
 
-I had 2 main roles: Collecitng data in NB01 and carrying out backtesting for arbitrage functions in NB04.
+I had 2 main roles: Collecitng data in NB01 and carrying out EDA and backtesting for arbitrage functions in NB04.
 
 **NB01:**
 
@@ -53,7 +53,7 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 
 - **Markdown, HTML and CSS proficiency:** Working on NB01/NB04 improved my ability to style in markdown. Working on the website improved my proficiency in CSS and HTML
   
-- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their functions previusly written to save time. Xinyan wrote a fucntion (process_row) which I used. It saved me alot of time obtaining the DF from the database for NB04.
+- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their functions previusly written to save time. Xinyan wrote a fucntion (process_row). Using it saved me alot of time obtaining the DF from the database for NB04.
 
 
 ### Challenges Overcome
@@ -64,6 +64,6 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 
 ### Areas for Future Growth  
 
-**Machine learning-** The next logical step for this project is to deploy more advance models with more parameters and develop a machine learning model to learn waht makes a good and bad strategy.
+**Machine learning-** The next logical step for this project is to deploy more advance models with more parameters and develop a machine learning model to learn what makes a good and bad strategy.
 **Advanced statistical techniques-** To develop more sophisticated models this will require an understanding of advanced statistics to increase the sophistication of my parameters.
 **Web Scraping-** although other API's could be used, scraping data may be very useful and it might've prevented use from needing to use a **Paid API**
