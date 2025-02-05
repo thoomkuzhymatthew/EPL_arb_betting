@@ -51,3 +51,10 @@ However, this doesn't mean that arbitrage loses its place as a strategy! As a fu
 
 Interestingly, we can observe that there is some seasonality in the prevalence of arbitrage opportunities. At the start of the season (June/July) arbitrage opportunities are most prevalent as bookmakers are still divided on their expectations for different teams in the new season. Perhaps we could reduce the prevalence of our summer travels and commit more to arbitrage betting in the summer months? 
 
+## Nature of games with arbitrage opportunities
+
+<img src="arbitrage_density.png" alt="Odds differences of games with arbitrage opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
+
+The odds sifference was calculated by doing abs |home odds - away odds|. Its a measure of the closeness of a match, a higher odds difference suggests there is a clear favoruite from the bookies
+A clear observation here is that the peak for matches with arbitrage opportunities is further to the right, This suggests games with arbitrage opportunities are less close and have a clearer favourite and underdog. Moreover the blue line has a lower peak suggesting games with arbitrage opportunities are present across a wider range of odds differences.
+
