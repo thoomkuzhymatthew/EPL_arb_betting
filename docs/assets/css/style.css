@@ -2,6 +2,7 @@ body {
     background-color: #f5f5f5;
     color: #454545;
     font-family: "Helvetica Neue", serif;
+    font-size: 16px;
     line-height: 1.8;
     margin: 0;
     padding: 40px;
@@ -9,7 +10,7 @@ body {
     margin: auto;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
     color: #454545;
     font-family: "Helvetica Neue", serif;
     font-weight: bold;
@@ -20,10 +21,9 @@ h1, h2, h3, h4 {
     margin-bottom: 0 !important;
 }
 
-h1 { font-size: 35px; }  
-h2 { font-size: 28px; }  
-h3 { font-size: 22px; }
-h4 { font-size: 20px; }
+h1 { font-size: 36px; }  
+h2 { font-size: 24px; }  
+h3 { font-size: 20px; }
 
 
 .header {
