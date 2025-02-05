@@ -12,13 +12,18 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# Backtesting Results
-
-In this section, we developed backtesting functions to simulate betting strategies on the 5-year sample. We categorized these into simple strategies explored in NB03 and arbitrage strategies explored in NB04.
-
-## **Simulation of Simple Betting Strategies**:
+## Backtesting Simple Betting Strategies
 
 The following section shows the results of simulating simple betting strategies. The six strategies simulated were:
+| Strategy                           | Odds Range     | Strategy Type |
+|-------------------------------------|---------------|----|
+| Betting on Home Favourites         | 1.25 to 1.75  | Discretionary |
+| Betting on Home Underdogs          | 4.5 to 5.5    | Discretionary |
+| Betting on Away Underdogs          | 2.5 to 4.0    | Discretionary |
+| Betting on Favourites  | NIL | Simple |
+| Betting on Underdogs | NIL | Simple |
+| Betting on Draws | NIL | Simple |
+
 - Betting on Favourites
 - Betting on Underdogs
 - Betting on Draws
