@@ -4,7 +4,7 @@
 
 Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
 ---
-![projectimage](project_image.webp)
+![projectimage](./misc/project_image.webp)
 
 ---
 ## Project Overview 🗂
@@ -103,7 +103,7 @@ pip install -r requirements.txt
 
 ### 3. API Plan
 
-![api_plan](api_plan.png)
+![api_plan](./misc/api_plan.png)
 
 Reasons Why We Like Odds API:
 1. Access to Real-Time and Historical Odds
