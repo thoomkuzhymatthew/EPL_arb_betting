@@ -12,7 +12,7 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# Backtesting Simple Betting Strategies
+## Backtesting Simple Betting Strategies
 
 These were the strategies investigated, informed by the outcomes of our [Exploratory Data Analysis](eda.md)
 
@@ -61,7 +61,7 @@ These were the strategies investigated, informed by the outcomes of our [Explora
 
 <img src="./figures/bet_simulation.svg" alt="Simple Betting Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
-## **Performance Breakdown by Strategy**
+### **Performance Breakdown by Strategy**
 
 <table>
     <tr>
@@ -108,7 +108,7 @@ These were the strategies investigated, informed by the outcomes of our [Explora
     </tr>
 </table>
 
-## Insight
+### Insight
 
 Our findings confirm that most strategies will lead to losing all of the bankroll over the 4.5 year period. The **only**  successful strategy involved betting on away underdogs, which had consistently underpriced odds as determined by our EDA. 
 
@@ -119,9 +119,9 @@ To **maximize profitability**, further refinements should include:
 - Expansion of odds data collection to international leagues for even better earnings
 
 
-# Backtesting Arbitrage Strategies:
+## Backtesting Arbitrage Strategies:
 
-## Overview
+### Overview
 
 The following section shows the results of simulating different arbitrage strategies. The five strategies simulated were:
 - Unbiased Arbitrage Betting
@@ -178,7 +178,7 @@ The following section shows the results of simulating different arbitrage strate
     </tr>
 </table>
 
-## Insight
+### Insight
 
 Our findings confirm that arbitrage betting remains a viable strategy in Premier League markets when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**. This strategy has both a high enough profit per event and frequency of success to be compoundingly successful.
 
@@ -190,7 +190,7 @@ To **maximize profitability**, further refinements should include:
 - Expansion of arbitrage detection to international leagues for cross-market inefficiencies
 
 
-# Conclusion
+## Conclusion
 
 Ultimately results show that simply gambling is almost never a good idea. The only instance of success when simply gambling was when betting on away underdogs, which appeared underpriced. Even when this was profitable, it was only profitable after implementing a hard flat cap on the stake limit. Therefore we would **strongly** advise against non-arbitrage betting. As this requires both luck from the uncertainty of the event and knowledge of how to set an optimal dynamic stake limit, which itself is uncertain.
 
