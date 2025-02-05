@@ -48,33 +48,71 @@ The backtesting was challenging because:
 
 
 ## Our Git Website
+I designed the 'Exploratory Data Analysis' portion of the website in addition with assisting Matthew on deciding the colour scheme, fonts, font-sizes etc.
 
+## Key Technical Decisions Influenced
 
-## 
+1. Creation of `fixture_id`
 
+    In the initial discussions, I suggested the creation of a unique `fixture_id` to merge match odds and outcomes which was thereafter implemented by Noah in NB02.
+
+2. Creating an SQL Database
+
+    Though an SQL Database wasn't necessary, I suggested that we should standardise our data inputs for NB03 and NB04 to streamline it and ensure our data sources were consistent.
+
+3. Deprecating NB05 (Positive Expected Value Betting)
+
+    I realised that our plan to construct a 'fair odds' based on the team's form (last 5 games performance) was probably already factored into bookmakers' pricing and it'll be difficult to get an edge. Hence, I suggested that we focus on more detailed analysis for the other two categories of strategies instead. 
 
 # Team Collaboration  
 
+## Role in Team Collaboration
+*Evidence: 'Issues' tab on Github, [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4)*
+
+My main role in team collaboration was ensuring a streamlined workflow. This included:
+
+1. Creating a [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4) where we could upload comments for each other's work and refer to the rubrics/standardisation.
+
+2. Enforcing issue-tracking and creating separate branches for any edits to ensure the team is always updated on tasks and any potential confclits would be flagged before merging. I assisted my teammates with this by uploading the standardised code for starting new branches on our [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4) 
+
+
+## Supporting Team Members
+Beyond my primary responsibilities, I supported my teammates by 
+
+1. Ensuring Clarity of Presentation (*Evidence: Pull Request #42*)
+
+    I ensured that descriptions of specific code snippets and the overall flow of each notebook was sound, in addition to correcting any grammatical errors.
+
+2. Code Reviews
+
+    I reviewed all of Noah and Matthew's notebooks to ensure the code was efficient and streamlined, providing comments whenever required and running to ensure its error-free.
+
+## Conflict Resolution
+Thankfully, due to our meticulous issue-tracking and branch-creation, we did not run into any syncing conflicts on Github. 
+
+The main conflict that occurred was the scope of our project as we wanted to investigate betting strategies across different leagues. We mediated that by considering the pros and cons of a more focused investigation - though we had less scope, we can focus on the intricacies of each League and better optimise our betting strategies. We reached a consensus easily and decided to focus on the Premier League, with the option to expand our investigation in the future. 
 
 # Learning Journey  
 
-### Skills Developed  
-This project significantly enhanced my technical and collaborative skills:  
+## Skills Developed  
 
-- **Data Processing & Cleaning**: I deepened my understanding of handling real-world datasets, particularly in sports analytics.  
-- **SQL & Pandas Proficiency**: Working with structured and unstructured data improved my ability to manipulate large datasets efficiently.  
-- **Markdown & Documentation**: Writing clear and structured documentation improved my ability to communicate technical concepts effectively.  
-- **Collaboration & Code Integration**: I gained experience in working with a team on a shared codebase, handling dependencies, and ensuring code readability.  
+- **Git Collaboration and Workflow Management**: Deepened my understanding of how to manage workflow on Git using issue-tracking and branch-creation, just like in real-world data science projects.
 
-### Challenges Overcome  
-The biggest challenges I faced were:  
+- **Pandas Proficiency**: Reinforced my data manipulation skills like being able to bin data, melt dataframes for better plotting etc. 
 
-- **Handling Inconsistent Data Formats**: The data from different sources used varying team name formats. I resolved this by creating robust mapping dictionaries that standardized names.  
-- **Ensuring Scalable Data Processing**: Given the large dataset, initial processing attempts were slow. By implementing batch processing and optimizing SQL storage, I significantly reduced runtime.  
-- **Balancing Workload**: With documentation responsibilities in addition to coding, I managed my time effectively by setting clear milestones and prioritizing tasks.  
+- **Code Documentation**: Writing concise markdown documentation and comments within my functions honed my ability to better communicate my coding logic.
 
-### Areas for Future Growth  
-While I gained valuable experience, I recognize areas where I can further improve:  
+## Challenges Overcome  
+The most significant challenges I faced were:  
 
-- **Advanced SQL & Database Management**: Optimizing queries and database structures would further improve data handling efficiency.  
-- **Machine Learning for Predictive Analysis**: Applying ML models to betting data could be a future extension of this research.  
+- **Troubleshooting the Backtesting Function**: My backtesting results were returning many NaN values as the final bankroll. After some df.iloc[] inspections, I concluded it was due to NaN values in the odds which I removed to resolve this issue.
+
+- **Git Workflow Management**: There were a few instances where I accidentally made unwanted edits on the notebooks on my local version after I had already merged that previous branch into Github. This resulted in my local version being stuck at the deprecated branch because I couldn't run `git pull origin main` due to the un-pushed edits. Hence, I had to run `git reset --hard` to reset to the last commit and `git pull origin main` to reset my local version on VSCode.  
+
+- **Displaying SVG Plots in Jupyter Notebooks**: Github had compatability issues trying to display SVG plots within the notebooks as the visualisations always had the same formatting issues. Hence, I opted for a dynamic link that brings the reader to the referenced visualisation within `../data/visualisations` instead.  
+
+## Areas for Future Growth  
+
+- **Optimisation of Betting Strategies**: In addition to investigating the profitability of simple strategies themselves, I hope to leverage libraries like `SciPy` to engage in the optimisation of these strategies and derive a custom strategy with even higher profitability. 
+
+- **Expanding into Other Bet Types**: In addition to just bet outcomes, I hope to research betting strategies involving match score, goals scored, yellow/red cards given etc. which can offer even more diversification to our betting approach.
