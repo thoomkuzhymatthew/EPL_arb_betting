@@ -31,17 +31,17 @@ Due to this, another technical decision I made was to make my own backtesting fu
 
 ## Team Collaboration  
 
-We frequently stayed in touch with regular google meets being scheduled.
-In these meetings we would discuss our work and notebooks and give feedback to our peers for suggestions to imporve our visualisations or documentation
-This way all feedback given was in the context of constructive criticism
+We frequently stayed in touch with regular google meetings.
+In these meetings we would discuss our work and notebooks and give feedback to our peers for suggestions to improve our visualisations or documentation
+This way all feedback given was constructive. 
 
-After I completed my issues, if another person's task was overwhelming e.g. the creation of the website, I helped to contribute to the completion of the task. This can be seen thruugh commits on the 4th and 5th of February regarding the Markdown, HTML and CSS elements.
+After I completed my issues, if another person's task was overwhelming e.g. the creation of the website, I contributed to the completion of the task. This can be seen thruugh commits on the 4th and 5th of February regarding the Markdown, HTML and CSS elements.
 
 We also met up early on to decide the allocation of work and issues on github were assigned accordingly, this meant that it was alot easier to co-ordinate workflow as all I had to do was commit to my assigned issues which were #3 NB01 and #6 NB04.
 
-I also informed Noah about the problem I faced in NB01, and the creation of the grouped events folder to overcome this. This way he knew were to access the files, and that the files were split by month. This helped him develop function (process_all_files) to iterate through the folder and clean the data
+I also informed Noah about the problem I faced in NB01, and the creation of the grouped events folder to overcome this. This way he knew where to access the files, and that the files were split by month. This helped him develop function (process_all_files) to iterate through the folder and clean the data
 
-When editing the website , Xinyan and I organized the times we would be editing. This way it would prevent double editing and a delay of the progress of the website.
+When editing the website , Xinyan and I organised the times we would be editing. This way it would prevent double editing and bottlenecks, delaying progress.
 
 Not much conflict arose other than varying opinions on design choice for notebooks and website, all of these were brought up formally in meetings and decided on at the time.
  
@@ -49,17 +49,16 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 
 ### Skills Developed 
 
-- **Python profficiency and API familiarirty:** Working on NB01 imporved my familiarity with learning and implementing API documentation. The bias logic in NB04 developed my ability to code logically and abstractly
+- **Python proficiency and API familiarirty:** Working on NB01 improved my familiarity with learning and implementing API documentation. The bias logic in NB04 developed my ability to code logically and abstractly
 
-- **Markdown, HTML and CSS profficiency:** Working on NB01/NB04 imporved my ability to style in markdown. WOrking on the website improved my profficiency in CSS and HTML
+- **Markdown, HTML and CSS proficiency:** Working on NB01/NB04 improved my ability to style in markdown. Working on the website improved my proficiency in CSS and HTML
   
-- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their fucnitons previusly written to save time. Xinyan wrote a fucntion (process_row) which I used. It saved me alot of time obtaining the DF from the database for NB04.
+- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their functions previusly written to save time. Xinyan wrote a fucntion (process_row) which I used. It saved me alot of time obtaining the DF from the database for NB04.
 
 
 ### Challenges Overcome
 
 - **Navigating platform constraints:** When I couldn't push the data due to the JSON file being too large to push to github, I had to split the file up
-- **Coding unfamiliar strategy logic:** When I couldn't modify an existing function to simulate arbitrage correclty I made my own from scratch
 - **Preventing data leakage:** When backtesting I had to ensure my insights from EDA weren't being used to produce bias results with artificially high profits. So I kept my strategies abstract enough to avoid bias.
 
 
