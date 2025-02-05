@@ -9,7 +9,7 @@ The first problem I had to overcome was that the api only collected historical d
 
 The 2nd problem I faced was that the data in the file was too large to be pushed to github so I had to resplit the collected data into smaller files. So I wrote a function (def split_JSON_By_month) which splits the data for matches collected by month. These monthly files do not exceed the 30MB limit so could be pushed to github.
 
-This meant a change in the folder structure for the directory was crucial so that all of these new JSON's could be stored clearly, so a new folder was created within data/raw called grouped events. This was a technical decision I influenced.
+This meant a change in the folder structure for the directory was crucial so that all of these new JSON's could be stored clearly, a new folder was created within data/raw called grouped events. This was a technical decision I influenced.
 
 Evidence can be seen through commits to pull requests 11,13,14,15 and 16. Which were directed at resolving issue #3
 
@@ -30,8 +30,7 @@ Due to this, another technical decision I made was to make my own backtesting fu
 ## Team Collaboration  
 
 We frequently stayed in touch with regular google meetings.
-In these meetings we would discuss our work and notebooks and give feedback to our peers for suggestions to improve our visualisations or documentation
-This way all feedback given was constructive. 
+In these meetings we would give feedback to our peers to improve our visualisations or documentation
 
 After I completed my issues, if another person's task was overwhelming e.g. the creation of the website, I contributed to the completion of the task. This can be seen thruugh commits on the 4th and 5th of February regarding the Markdown, HTML and CSS elements.
 
@@ -41,7 +40,7 @@ I also informed Noah about the problem I faced in NB01, and the creation of the 
 
 When editing the website , Xinyan and I organised the times we would be editing. This way it would prevent double editing and bottlenecks, delaying progress.
 
-Not much conflict arose other than varying opinions on design choice for notebooks and website, all of these were brought up formally in meetings and decided on at the time.
+Not much conflict arose other than varying opinions on design choice for notebooks and website, all of these were brought up formally in meetings and resolved.
 
  ---
  
@@ -53,7 +52,7 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 
 - **Markdown, HTML and CSS proficiency:** Working on NB01/NB04 improved my ability to style in markdown. Working on the website improved my proficiency in CSS and HTML
   
-- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their functions previusly written to save time. Xinyan wrote a fucntion (process_row). Using it saved me alot of time obtaining the DF from the database for NB04.
+- **Code collaboration:** I gained experience in working with a team on a shared codebase. I also improved my ability to understand code others have written. It meant I could use their functions previusly written to save time. Xinyan wrote a fucntion (process_row), using it saved me alot of time obtaining the DF from the database for NB04.
 
 
 ### Challenges Overcome
@@ -64,6 +63,6 @@ Not much conflict arose other than varying opinions on design choice for noteboo
 
 ### Areas for Future Growth  
 
-**Machine learning-** The next logical step for this project is to deploy more advance models with more parameters and develop a machine learning model to learn what makes a good and bad strategy.
+**Machine learning-** The next logical step is to deploy more advanced models and develop a machine learning model to learn what makes a good and bad strategy.
 
-**Web Scraping-** although other API's could be used, scraping data may be very useful and it might've prevented us from needing to use a **Paid API**
+**Web Scraping-** Scraping data may be very useful and it might've prevented us from needing to use a **Paid API**
