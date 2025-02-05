@@ -1,4 +1,4 @@
-# Technical Contributions
+# 1. Technical Contributions
 
 ## NB03: Simple Betting Strategies
 One of my main responsibilities in this project was to conduct both exploratory data analysis (EDA) and backtesting with regards to simple, unidirectional betting strategies in the Premier League. 
@@ -65,7 +65,7 @@ I designed the 'Exploratory Data Analysis' portion of the website in addition to
 
     I realised that our plan to construct a 'fair odds' based on the team's form (last 5 games performance) was probably already factored into bookmakers' pricing and it'll be difficult to get an edge. Hence, I suggested that we focus on more detailed analysis for the other two categories of strategies instead. 
 
-# Team Collaboration  
+# 2. Team Collaboration  
 
 ## Role in Team Collaboration
 *Evidence: 'Issues' tab on Github, [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4)*
@@ -93,7 +93,7 @@ Thankfully, due to our meticulous issue-tracking and branch-creation, we did not
 
 The main conflict that occurred was the scope of our project as we wanted to investigate betting strategies across different leagues. We mediated that by considering the pros and cons of a more focused investigation - though we had less scope, we can focus on the intricacies of each League and better optimise our betting strategies. We reached a consensus easily and decided to focus on the Premier League, with the option to expand our investigation in the future. 
 
-# Learning Journey  
+# 3. Learning Journey  
 
 ## Skills Developed  
 
