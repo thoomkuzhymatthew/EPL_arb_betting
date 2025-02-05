@@ -116,7 +116,8 @@ Reasons Why We Like Odds API:
 
 #### Notebook 1: Data Collection  
 Navigate to the `code/` directory and open `NB01 - Data Collection.ipynb`.  
-This notebook collects raw data from the Historical Odds API and saves it in the `data/raw/` folder.  
+This notebook collects raw data from the Historical Odds API and saves it in the `data/raw/` folder.
+The code here will not run as the data collected was collected using a paid API key.
 
 #### Notebook 2: Data Processing  
 Run `NB02 - Data Processing.ipynb` to process the raw data and merge it into an SQL database along with historical outcome data.  
