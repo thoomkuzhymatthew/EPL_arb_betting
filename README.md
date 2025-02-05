@@ -103,7 +103,11 @@ pip install -r requirements.txt
 
 ![api_plan](./misc/api_plan.png)
 
-Reasons Why We Like Odds API:
+The historical odds data is behind a paywall at the Odds API. We purchased a one-month plan and obtained our client credentials, to which we then stored in a `.env` file locally.
+
+If you would like to obtain data yourself, you would have to follow the steps we mentioned. Else, you can work directly with the historical odds data we have already collected.
+
+Here are some reasons as to why we selected the Odds API:
 1. Access to Real-Time and Historical Odds
 2. Offers Odds from Various Bookmakers to Better Investigate Arbitrage Opportunities
 3. Data Reliability and Authenticity
