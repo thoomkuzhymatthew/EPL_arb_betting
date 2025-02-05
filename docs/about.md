@@ -13,9 +13,11 @@ layout: default
 </div>
 
 ## Project Objectives
-- Analyze sports betting odds and arbitrage opportunities.
-- Identify patterns and inefficiencies in bookmaker pricing.
-- Evaluate betting strategies using historical data.
+- Analyze sports betting odds to identify arbitrage opportunities
+- Identify potential inefficiencies in odds pricing that are exploitable
+- Incorporate these findings into backtesting both simple directional betting and arbitrage betting strategies
+
+Finally, we aim to synthesize the findings from these objectives to inform us on what the best betting strategy in the English Premier League is.
 
 ## Research Areas  
 
