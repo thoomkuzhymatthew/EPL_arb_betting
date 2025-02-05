@@ -27,8 +27,8 @@ In simple unidirectional betting, we are most often 'gambling' because odds are 
 
 <img src="arb_opportunity_frequency.png" alt="Time Series of Arbitrage Opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
-<img src="arb_profit_margin_timeline.png" alt="Time Series of Arbitrage Profit Margins" style="max-width: 100%; height: auto; display: block; margin: auto;">
+<img src="arbitrage_profit_margin_timeline.png" alt="Time Series of Arbitrage Profit Margins" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## Seasonality of Arbitrage Opportunities
-<img src="arb_opportunities_by_month.png" alt="Seasonality of Arbitrage Opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
+<img src="arbitrage_opportunities_by_month.png" alt="Seasonality of Arbitrage Opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
