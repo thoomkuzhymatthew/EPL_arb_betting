@@ -12,7 +12,7 @@ layout: default
     <a href="backtesting.html">Backtesting</a>
 </div>
 
-# What is the Best Betting Strategy for the English Premier League?
+# Wanna Outsmart the Bookies? Aight, Bet!
 
 ## Overview
 
