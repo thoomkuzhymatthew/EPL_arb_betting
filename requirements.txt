@@ -6,7 +6,6 @@ SQLAlchemy
 datetime
 python-dotenv
 lets-plot
-IPython
 matplotlib
 seaborn
 numpy
