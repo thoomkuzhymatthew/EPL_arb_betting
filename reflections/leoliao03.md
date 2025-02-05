@@ -44,12 +44,12 @@ The backtesting was challenging because:
 
 2. Difficult to See Any Strategy Generate Profit
 
-    nitially, all strategies ran my bankroll to zero. Whilst that's not necessarily surprising (we know gambling is bad), I figured that taking less aggressive approaches like **hard cap on stake limits** might see some success.
+    Initially, all strategies ran my bankroll to zero. Whilst that's not necessarily surprising (we know gambling is bad), I figured that taking less aggressive approaches like **hard cap on stake limits** might see some success.
 
 
 ## Our Git Website
 *Evidence: Commit history on the 4th and 5th of February*
-I designed the 'Exploratory Data Analysis' portion of the website in addition to assisting Matthew with deciding the colour scheme, fonts, font-sizes etc.
+I designed the 'Exploratory Data Analysis' portion of the website in addition to assisting Matthew with deciding the colour scheme, fonts, font sizes etc.
 
 ## Key Technical Decisions Influenced
 
@@ -99,7 +99,9 @@ The main conflict that occurred was the scope of our project as we wanted to inv
 
 - **Git Collaboration and Workflow Management**: Deepened my understanding of how to manage workflow on Git using issue-tracking and branch-creation, just like in real-world data science projects.
 
-- **Pandas Proficiency**: Reinforced my data manipulation skills like being able to bin data, melt dataframes for better plotting etc. 
+- **Pandas Proficiency**: Reinforced my data manipulation skills like being able to bin data, melt dataframes for better plotting etc.
+
+- **Exploratory Data Analysis**: Working with very simple datasets (just odds and match outcomes) developed my ability to creatively manipulate the data and generate interesting findings like the presence of mispriced odds in home and away games. 
 
 - **Code Documentation**: Writing concise markdown documentation and comments within my functions honed my ability to better communicate my coding logic.
 
@@ -110,7 +112,7 @@ The most significant challenges I faced were:
 
 - **Git Workflow Management**: There were a few instances where I accidentally made unwanted edits on the notebooks on my local version after I had already merged that previous branch into Github. This resulted in my local version being stuck at the deprecated branch because I couldn't run `git pull origin main` due to the un-pushed edits. Hence, I had to run `git reset --hard` to reset to the last commit and `git pull origin main` to reset my local version on VSCode.  
 
-- **Displaying SVG Plots in Jupyter Notebooks**: Github had compatability issues trying to display SVG plots within the notebooks as the visualisations always had the same formatting issues. Hence, I opted for a dynamic link that brings the reader to the referenced visualisation within `../data/visualisations` instead.  
+- **Displaying SVG Plots in Jupyter Notebooks**: Github had compatibility issues trying to display SVG plots within the notebooks as the visualisations always had the same formatting issues. Hence, I opted for a dynamic link that brings the reader to the referenced visualisation within `../data/visualisations` instead.  
 
 ## Areas for Future Growth  
 
