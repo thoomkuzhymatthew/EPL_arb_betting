@@ -57,7 +57,4 @@ These findings can be accessed in:
 
 ---
 
-## Contact  
-For questions or feedback, please reach out via GitHub Issues or contribute to this project through pull requests.
-
-
+Excited to find out more about how to outsmart the bookmakers? Head over to [Exploratory Data Analysis](eda.md) and find out more!
