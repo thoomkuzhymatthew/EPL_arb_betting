@@ -16,7 +16,7 @@ layout: default
 
 ## Overview
 
-<img src="project_image.webp" alt="Leicester City 2015-16 Win" style="max-width: 100%; height: auto; display: block; margin: auto;">
+<img src="./figures/project_image.webp" alt="Leicester City 2015-16 Win" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 Imagine how much winnings you would've made if you placed all your bets on Leicester City winning the English Premier League in the 2015/16 season. Who would've thought Jamie Vardy, a forward that just turned pro merely few years ago, would lead Leicester to their first ever league title?
 

@@ -59,7 +59,7 @@ These were the strategies investigated, informed by the outcomes of our [Explora
 </table>
 
 
-<img src="bet_simulation.svg" alt="Simple Betting Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
+<img src="./figures/bet_simulation.svg" alt="Simple Betting Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## **Performance Breakdown by Strategy**
 
@@ -130,7 +130,7 @@ The following section shows the results of simulating different arbitrage strate
 - Biased Arbitrage Betting Towards the Underdog (Highest Odds)
 - Custom Arbitrage Strategy for Bias Towards Weak Favourites and Strong Underdogs
 
-<img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
+<img src="./figures/arb_simulation.png" alt="Arbitrage Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## Performance Breakdown by Strategy
 <table>
