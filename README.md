@@ -54,19 +54,20 @@ These findings can be accessed in:
 ```bash
 .
 ├─ README.md
+├─ requirements.txt
 ├─ .gitignore
+├─ reflections
+├─ misc
+├─ docs
 ├─ code
-│  ├─ NB-01: Data Collection.ipynb
-│  ├─ NB-02: Data Processing.ipynb
-│  ├─ NB-03: Visualisation of Simple Betting Strategies.ipynb
-│  ├─ NB-04: Visualisation of Arbitrage Betting Strategies.ipynb
-│  ├─ auth.py
+│  ├─ NB-01: Data_Collection.ipynb
+│  ├─ NB-02: Data_Processing.ipynb
+│  ├─ NB-03: Simple_Betting_Strategies.ipynb
+│  ├─ NB-04: Arbitrage_Betting_Strategies.ipynb
 │  └─ functions.py
 └─ data
    ├─ sports_odds.db
-   ├─ raw
-   │  ├─ historical_odds_data.json
-   │  └─ historical_match_data.csv
+   ├─ CSV's
    └─ visualisations
       ├─ arb_betting_strategies
       └─ simple_betting_strategies
@@ -105,7 +106,7 @@ pip install -r requirements.txt
 
 The historical odds data is behind a paywall at the Odds API. We purchased a one-month plan and obtained our client credentials, to which we then stored in a `.env` file locally.
 
-If you would like to obtain data yourself, you would have to follow the steps we mentioned. Else, you can work directly with the historical odds data we have already collected.
+If you would like to obtain data yourself, you would have to follow the steps we mentioned. Else, you can work directly with the historical odds data we have already collected in `./data/CSV's`
 
 Here are some reasons as to why we selected the Odds API:
 1. Access to Real-Time and Historical Odds
