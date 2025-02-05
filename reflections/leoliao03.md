@@ -48,7 +48,8 @@ The backtesting was challenging because:
 
 
 ## Our Git Website
-I designed the 'Exploratory Data Analysis' portion of the website in addition with assisting Matthew on deciding the colour scheme, fonts, font-sizes etc.
+*Evidence: Commit history on the 4th and 5th of February*
+I designed the 'Exploratory Data Analysis' portion of the website in addition to assisting Matthew with deciding the colour scheme, fonts, font-sizes etc.
 
 ## Key Technical Decisions Influenced
 
@@ -73,7 +74,7 @@ My main role in team collaboration was ensuring a streamlined workflow. This inc
 
 1. Creating a [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4) where we could upload comments for each other's work and refer to the rubrics/standardisation.
 
-2. Enforcing issue-tracking and creating separate branches for any edits to ensure the team is always updated on tasks and any potential confclits would be flagged before merging. I assisted my teammates with this by uploading the standardised code for starting new branches on our [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4) 
+2. Enforcing issue-tracking and creating separate branches for any edits to ensure the team is always updated on tasks and any potential conflicts would be flagged before merging. I assisted my teammates with this by uploading the standardised code for starting new branches on our [Collaboration Space](https://caring-science-810.notion.site/1633c9e924fc8011af27f5ce14ed4d6a?v=d886cee50f394c1ab113446a24f6df59&pvs=4) 
 
 
 ## Supporting Team Members
