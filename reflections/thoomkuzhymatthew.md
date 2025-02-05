@@ -1,5 +1,5 @@
 
-## Technical Contributions-
+## Technical Contributions
 
 I had 2 main roles: Collecting data in NB01 and carrying out EDA and backtesting for arbitrage functions in NB04.
 
