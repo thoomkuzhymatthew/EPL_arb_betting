@@ -57,3 +57,22 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+table {
+    width: 60%; 
+    margin: auto; 
+    border-collapse: collapse; 
+    background-color: 
+    text-align: center; 
+}
+
+th {
+    background-color: #343a40; 
+    color: white; 
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid 
+    padding: 10px; 
+}
