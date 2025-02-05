@@ -128,6 +128,41 @@ The following section shows the results of simulating different arbitrage strate
 - Biased Arbitrage Betting Towards the Underdog (Highest Odds)
 - Custom Arbitrage Strategy for Bias Towards Weak Favourites and Strong Underdogs
 
+This custom strategy will essentially be deciding to engage in biased vs unbiased behaviour based on the insights from part 8 as seen below:
+
+<table>
+    <thead>
+        <tr>
+            <th>Strong Underdog</th>
+            <th>Weak Favourite</th>
+            <th>Arbitrage Type</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>✅ Yes</td>
+            <td>❌ No</td>
+            <td>Biased</td>
+        </tr>
+        <tr>
+            <td>❌ No</td>
+            <td>✅ Yes</td>
+            <td>Biased</td>
+        </tr>
+        <tr>
+            <td>✅ Yes</td>
+            <td>✅ Yes</td>
+            <td>Unbiased</td>
+        </tr>
+        <tr>
+            <td>❌ No</td>
+            <td>❌ No</td>
+            <td>Unbiased</td>
+        </tr>
+    </tbody>
+</table>
+
+
 <img src="./figures/arb_simulation.png" alt="Arbitrage Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
 ## Performance Breakdown by Strategy
@@ -179,8 +214,6 @@ The following section shows the results of simulating different arbitrage strate
 ### Insight
 
 Our findings confirm that arbitrage betting remains a viable strategy in Premier League markets when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**. This strategy has both a high enough profit per event and frequency of success to be compoundingly successful.
-
-**Custom strategy** : the custom strategy used xor logic to set conditions for a weak favourite or a strong underdog. The threshold for weak favourite was set at an implied win rate lower than 60%. The threshold for strong underdog was set at and implied win rate higher than 20%. Even after making abstract conditions based off of insights from the EDA about when outcomes are mispriced, the custom strategy still failed to outperform the best stratefy (biased second favourite abritrage).
 
 To **maximize profitability**, further refinements should include:
 - Algorithmic bet execution to minimize delays
