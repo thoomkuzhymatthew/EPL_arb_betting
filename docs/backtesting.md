@@ -26,7 +26,7 @@ The following section shows the results of simulating simple betting strategies.
 - Betting on Home Underdogs
 - Betting on Away Underdogs
 
-<img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="750" height="500">
+<img src="bet_simulation.svg" alt="Simple Betting Strategies Simulation" width="750" height="500">
 
 ## **Performance Breakdown by Strategy**
 
