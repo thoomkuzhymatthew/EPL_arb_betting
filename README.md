@@ -2,18 +2,16 @@
 
 # Wanna Outsmart the Bookies? Aight, Bet!
 
-Authors: Matthew Thoomkuzhy, Leo Liao and Noah Salehi 
+Authors: Matthew Thoomkuzhy, Xinyan Liao and Noah Salehi 
 ---
 ![projectimage](./misc/project_image.webp)
 
 ---
-## Project Overview 🗂
+## Project Overview
 
-**We want to figure out what the best betting strategy is for premier league games.**
+**We want to figure out what is the best betting strategy for the English Premier League.**
 
-
-This project investigates the **profitability and sustainability** of betting strategies in the **English Premier League (EPL)** by backtesting historical match data. Our backtesting simulates the hypothetical growth of a **£1000 bankroll** across all matches in our dataset.  
-
+Hence, our project investigates the **profitability and sustainability** of betting strategies in the **English Premier League (EPL)** by backtesting historical match data. Our backtesting simulates the hypothetical growth of a **£1000 bankroll** across all matches in our dataset.  
 
 ## Research Areas  
 
@@ -45,7 +43,7 @@ These findings can be accessed in:
 - 📓 **`NB04-arbitrage_betting_strategies.ipynb`**  
 
 ---
-**In order to do this, we need to collect 2 pieces of data:** 
+**In order to do this, we need to collect 2 sets of data:** 
 
 1. Historical odds data for premier league games for the past 5 seasons, we will be collecting this using ['the odds API'](https://the-odds-api.com/)
 2. Fixture outcomes for all premier league games for the past 5 seasons, can be found at  ['Premier League Matches'](https://www.football-data.co.uk/englandm.php)
@@ -129,8 +127,13 @@ Execute `NB03 - Simple Betting Strategies.ipynb` to explore various basic bettin
 Run `NB04 - Arbitrage Betting Strategies.ipynb` to investigate both biased and unbiased arbitrage betting strategies and backtest them.  
 
 ## Acknowledgements  
-- **Data Source**: [The Odds API](https://the-odds-api.com/) for providing comprehensive sports betting data. ['Premier league dataset'](https://www.football-data.co.uk/englandm.php)  Fixture outcomes for all premier league games
-- **Libraries Used**: `requests`, `json`, `pandas`, `os`, `SQLAlchemy`, `datetime`, `python-dotenv`, `lets-plot`, `IPython`, `matplotlib`, `seaborn`, `numpy` for data processing, analysis, and visualization.  
+**Data Source**: 
+
+[The Odds API](https://the-odds-api.com/) for providing comprehensive sports betting data.
+
+['Premier League Dataset'](https://www.football-data.co.uk/englandm.php) for providing match outcomes for all Premier League games
+
+**Libraries Used**: `requests`, `json`, `pandas`, `os`, `SQLAlchemy`, `datetime`, `python-dotenv`, `lets-plot`, `IPython`, `matplotlib`, `seaborn`, `numpy` for data processing, analysis, and visualization.  
 
 ---
 
