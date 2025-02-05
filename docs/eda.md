@@ -55,6 +55,7 @@ Interestingly, we can observe that there is some seasonality in the prevalence o
 
 <img src="arbitrage_density.png" alt="Odds differences of games with arbitrage opportunities" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
-The odds sifference was calculated by doing abs |home odds - away odds|. Its a measure of the closeness of a match, a higher odds difference suggests there is a clear favoruite from the bookies
+The odds sifference was calculated by doing abs |home odds - away odds|. Its a measure of the closeness of a match, a higher odds difference suggests there is a clear favoruite from the bookies.
+
 A clear observation here is that the peak for matches with arbitrage opportunities is further to the right, This suggests games with arbitrage opportunities are less close and have a clearer favourite and underdog. Moreover the blue line has a lower peak suggesting games with arbitrage opportunities are present across a wider range of odds differences.
 
