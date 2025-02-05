@@ -28,12 +28,15 @@ We backtest **six directional strategies** in total:
 - **Three simple strategies:** Betting on the **favorite, underdog, or draw**.  
 - **Three discretionary strategies:** Betting on **home favorites, home underdogs, and away underdogs**.  
 
+
 ### 2. Arbitrage Strategies  
 These strategies exploit **pricing inefficiencies** across bookmakers to guarantee **risk-free returns**. We investigate whether certain games have **higher win probabilities**, allowing for potential **biased arbitrage opportunities**.  
 
 We backtest **four arbitrage strategies**:  
 - **One unbiased arbitrage strategy**  
-- **Three biased arbitrage strategies:** Favoring the **favorite, second-favorite, or underdog**.  
+- **Three biased arbitrage strategies:** Favoring the **favorite, second-favorite, or underdog**.
+
+
 ### 3. Exploratory Data Analysis (EDA)  
 In preparation for backtesting, we conducted **extensive EDA** on betting trends in EPL matches, including:  
 - **Bookmakers offering the best odds**  
@@ -48,9 +51,9 @@ These findings can be accessed in:
 
 ## Team Background
 
-- Matthew Thoomkuzhy - Bsc Economics
-- Xinyan Liao - Bsc  Economics
-- Noah Salehi - Politics Philosophy and Economics
+- Matthew Thoomkuzhy - Bsc Economics 1st Year, Cheerful Chelsea Fan
+- Xinyan Liao - Bsc  Economics 1st Year, Melancholic Man United Fan
+- Noah Salehi - Politics Philosophy and Economics 4th Year, Lively Liverpool Fan 
 
 ---
 
