@@ -18,8 +18,6 @@ In this section, we developed backtesting functions to simulate betting strategi
 
 ## **Simulation of Simple Betting Strategies**:
 
-### **Overview:**
-
 The following section shows the results of simulating simple betting strategies. The six strategies simulated were:
 - Betting on Favourites
 - Betting on Underdogs
@@ -30,8 +28,7 @@ The following section shows the results of simulating simple betting strategies.
 
 <img src="bet_simulation.png" alt="Simple Betting Strategies Simulation" width="750" height="500">
 
-
-### **Performance Breakdown by Strategy**
+## **Performance Breakdown by Strategy**
 
 <table>
     <tr>
@@ -78,7 +75,7 @@ The following section shows the results of simulating simple betting strategies.
     </tr>
 </table>
 
-### **Insight**
+## **Insight**
 
 Our findings confirm that most strategies will lead to losing all of the bankroll over the 4.5 year period. The **only**  successful strategy involved betting on away underdogs, which had consistently underpriced odds as determined by our EDA. 
 
@@ -91,9 +88,9 @@ To **maximize profitability**, further refinements should include:
 - Expansion of odds data collection to international leagues for even better earnings
 
 
-## **Simulation of Arbitrage Strategies**:
+# **Simulation of Arbitrage Strategies**:
 
-### **Overview:**
+## **Overview:**
 
 The following section shows the results of simulating different arbitrage strategies. The five strategies simulated were:
 - Unbiased Arbitrage Betting
@@ -104,7 +101,7 @@ The following section shows the results of simulating different arbitrage strate
 
 <img src="arb_simulation.png" alt="Arbitrage Strategies Simulation" width="750" height="500">
 
-### **Performance Breakdown by Strategy**
+## **Performance Breakdown by Strategy**
 <table>
     <tr>
         <th>Strategy</th>
@@ -150,7 +147,7 @@ The following section shows the results of simulating different arbitrage strate
     </tr>
 </table>
 
-### **Insight**
+## **Insight**
 
 Our findings confirm that arbitrage betting remains a viable strategy in Premier League markets when focused on **second-favorite inefficiencies**. The most successful approach balances **high per-event profitability with sustainable trade frequency**, positioning the **"Only Second Favorite" strategy as the most effective long-term model**. This strategy has both a high enough profit per event and frequency of success to be compoundingly successful.
 
@@ -160,7 +157,7 @@ To **maximize profitability**, further refinements should include:
 - Expansion of arbitrage detection to international leagues for cross-market inefficiencies
 
 
-## **Conclusion**
+# **Conclusion**
 
 Ultimately results show that simply gambling is almost never a good idea. The only instance of success when simply gambling was when betting on away underdogs, which appeared underpriced. Even when this was profitable, it was only profitable after implementing a hard flat cap on the stake limit. Therefore we would **strongly** advise against non-arbitrage betting. As this requires both luck from the uncertainty of the event and knowledge of how to set an optimal dynamic stake limit, which itself is uncertain.
 
