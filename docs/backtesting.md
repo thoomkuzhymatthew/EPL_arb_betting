@@ -121,8 +121,6 @@ To **maximize profitability**, further refinements should include:
 
 ## Backtesting Arbitrage Strategies:
 
-### Overview
-
 The following section shows the results of simulating different arbitrage strategies. The five strategies simulated were:
 - Unbiased Arbitrage Betting
 - Biased Arbitrage Betting Towards the Favourite Outcome (Lowest Odds)
