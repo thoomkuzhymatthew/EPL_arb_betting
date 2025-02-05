@@ -58,6 +58,7 @@ These were the strategies investigated, informed by the outcomes of our [Explora
     </tbody>
 </table>
 
+Let's see how they stack up against each other over time. Any guesses on what the winner will be before seeing the figure? No prizes though unfortunately -- because if you were smart enough to guess, you'd probably make better money than us betting on EPL games :D
 
 <img src="./figures/bet_simulation.svg" alt="Simple Betting Strategies Simulation" style="max-width: 100%; height: auto; display: block; margin: auto;">
 
