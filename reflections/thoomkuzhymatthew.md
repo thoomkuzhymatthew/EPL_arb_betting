@@ -17,21 +17,28 @@ Evidence can be seen through commits to pull requests 11,13,14,15 and 16. Which 
 
 NB04:
 
-The largest probelm I had was in the encoding for bias
+The largest probelm I had was in the encoding for biased strategies
 
 
 ## Team Collaboration  
 
+google meets images
+issue tracking
+code comments
+
 ### Role in Team Coordination  
 
 ### Conflict Resolution  
-
+Co
 ## Learning Journey  
 
 ### Skills Developed  
+Markdown
+python programming
 
 ### Challenges Overcome  
 
+HTML
 ### Areas for Future Growth  
 
-
+ML
