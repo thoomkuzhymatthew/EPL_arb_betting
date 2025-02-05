@@ -7,44 +7,53 @@ I had 2 main roles: Collecitng data in NB01 and carrying out backtesting for arb
 
 NB01:
 
-I connected to the API server for the odds API. 
-
 The first problem I had to overcome was that the api only collected historical data for a signle day so I wrote a fucntion (def fetch_odds) to loop from the start date to end date, collect the data for each date in the range, and append the results to a JSON file.
 
 The 2nd problem I faced was that the data in the file was too large to be pushed to github so I had to resplit the collected data into smaller files. So I wrote a function (def split_JSON_By_month) which splits the data for matches collected by month. These monthly files do not exceed the 30MB limit os could be pushed to github.
 
+This meant a change in the folder structure for the directory was crucial so that all of these new JSON's could be stored clearly, so a new folder was created within data/raw called grouped events. This was a technical deicsion I influenced.
+
 Evidence can be seen through commits to pull requests 11,13,14,15 and 16. Which were directed at resolving issue #3
+
+
 
 NB04:
 
 Here I faced less problems, I created a backtesting function (def Sim_arb) to backtest how different strategies would affect an inital bankroll of 1000 pounds over time. Evidenced by commits to pull requests 23,24,25,29,30
 
-I also produced simulation plots with the funciton I created called (def plot_arb). Evidenced by commits to pull requests 23,24,25,29,30
+I also produced simulation plots with the function I created called (def plot_arb). Evidenced by commits to pull requests 23,24,25,29,30
 
 I carried out EDA on matches with arbitrage opportunities. I investigated the nature of arbitrage to produce insights about matches with arbitrage opportunities and how they vary from the sample. Evidenced by commits to pull requests 19,20,21,22.
 
-Initially my graphs were very volatile and going up and down, which didn't make sense for arbitrage (non loss events). So I changed the bias logic to rely on a base stake for all events (ensuring break even) and an extra stake to be allocated to the bias outcome, which would pay out when the bias outcome for the Full time result matched (the bet was successful).
+The main problem faced was that initially my graphs were very volatile and going up and down, which didn't make sense for arbitrage (non loss events). So I changed the bias logic to rely on a base stake for all events (ensuring break even) and an extra stake to be allocated to the bias outcome, which would pay out when the bias outcome and the Full time result matched. (the bet was successful).
 
+Due to this, another technical decision I made was to make my own backtesting funciton rather than use Xinyan's due to stark differences in the strategy logic. All attempts of manipulating his logic to fit an arbitrage function didn't work, so I decided it was easier to make my own backtesting fucntion from scratch (def sim_arb)
 
 
 
 ## Team Collaboration  
 
-google meets images
-issue tracking
-code comments
+We frequently stayed in touch with regular google meets being scheduled.
+In these meetings we would discuss our work and notebooks and give feedback to our peers for suggestions to imporve our visualisations or documentation
+This way all feedback given was in the context of constructive criticism
 
-### Role in Team Coordination  
+After I completed my issues, if another person's task was overwhelming e.g. the creation of the website, I helped to contribute to the completion of the task. This can be seen thorugh commits on the 4th and 5th of February regarding the Markdown, HTML and CSS elements.
 
-### Conflict Resolution  
-Co
+We also met up early on to decide the allocation of work and issues on github were assigned accordingly, this meant that it was alot easier to co-ordinate workflow as all I had to do was commit to my assigned issues which were #3 NB01 and #6 NB04.
+
+I also informed Noah about the problem I faced in NB01, and the creation of the grouped events folder to overcome this. This way he knew were to access the files, and that the files were split by month. This helped him develop function (process_all_files) to iterate through the folder and clean the data
+
+When editing the website , Xinyan and I organized the times we would be editing. This way it would prevent double editing and a delay of the progress of the website.
+
+Not much conflict arose other than varying opinions on design choice for notebooks and website, all of these were brought up formally in meetings and decided on at the time.
+ 
 ## Learning Journey  
 
-### Skills Developed  
-Markdown
-python programming
+### Skills Developed 
 
-### Challenges Overcome  
+- **Python profficiency and API familiarirty:** Working on NB01 imporved my familiarity and ability 
+- 
+### Challenges Overcome
 
 HTML
 ### Areas for Future Growth  
