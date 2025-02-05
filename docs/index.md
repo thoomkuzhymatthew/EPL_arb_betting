@@ -28,3 +28,5 @@ This project leverages historical odds from [The Odds API](https://the-odds-api.
 - [About](about.md) - Project Background and Objectives.
 - [Exploratory Data Analysis](eda.md) - Initial Insights and Data Visualization.
 - [Backtesting Results](backtesting.md) - Evaluation of Betting Strategies.
+
+We encourage readers to read the tabs in the order as presented above! This is because insights from the EDA will be crucial in understanding the different strategies selected for backtesting.
